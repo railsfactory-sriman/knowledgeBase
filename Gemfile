@@ -82,11 +82,11 @@ gem 'state_machine', "0.10.4"
 #gem "xapian-ruby", '1.2.7.1'
 #gem "xapit", :git => "git://github.com/dcu/xapit.git"
 
-group :deploy do
-  gem 'capistrano','~> 2.11.1', :require => false
-  gem 'ricodigo-capistrano-recipes',  :require => false
-  gem 'unicorn', '4.1.1', :require => false
-end
+#group :deploy do
+  #gem 'capistrano','~> 2.11.1', :require => false
+  #gem 'ricodigo-capistrano-recipes',  :require => false
+  #gem 'unicorn', '4.1.1', :require => false
+#end
 
 group :scripts do
   gem 'eventmachine', '~> 0.12.10'
