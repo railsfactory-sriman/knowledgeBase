@@ -1,0 +1,4953 @@
+/* line 9, ../../../app/stylesheets/shapado/basics/reset.sass */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, a, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, textarea, select, input, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, figure,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* line 25, ../../../app/stylesheets/shapado/basics/reset.sass */
+article, aside, figure, footer, header, hgroup, img, label, menu, nav, section {
+  display: block;
+}
+
+/* line 29, ../../../app/stylesheets/shapado/basics/reset.sass */
+b {
+  font-weight: bold;
+}
+
+/* line 32, ../../../app/stylesheets/shapado/basics/reset.sass */
+body {
+  text-rendering: optimizeLegibility;
+  position: relative;
+}
+
+/* line 36, ../../../app/stylesheets/shapado/basics/reset.sass */
+a {
+  outline: 0;
+  text-decoration: none;
+}
+/* line 39, ../../../app/stylesheets/shapado/basics/reset.sass */
+a:hover, a:focus {
+  border-bottom: 0;
+}
+/* line 41, ../../../app/stylesheets/shapado/basics/reset.sass */
+a img {
+  border: 0;
+}
+
+/* line 44, ../../../app/stylesheets/shapado/basics/reset.sass */
+.clear {
+  float: none;
+  clear: both;
+  display: block;
+  font-size: 0px;
+}
+
+/* line 51, ../../../app/stylesheets/shapado/basics/reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* line 57, ../../../app/stylesheets/shapado/basics/reset.sass */
+caption, legend, td, th {
+  text-align: left;
+}
+
+/* line 60, ../../../app/stylesheets/shapado/basics/reset.sass */
+td, th, input, select {
+  vertical-align: middle;
+}
+
+/* line 63, ../../../app/stylesheets/shapado/basics/reset.sass */
+fieldset, input[type="checkbox"], input[type="radio"] {
+  border: 0;
+}
+
+/* line 66, ../../../app/stylesheets/shapado/basics/reset.sass */
+button, input[type="checkbox"], input[type="radio"], input[type="submit"], select {
+  cursor: pointer;
+}
+
+/* line 69, ../../../app/stylesheets/shapado/basics/reset.sass */
+input[type="checkbox"] + label, input[type="radio"] + label {
+  display: inline-block;
+  vertical-align: -1px;
+  .vertical-align: baseline;
+}
+
+/* line 74, ../../../app/stylesheets/shapado/basics/reset.sass */
+button {
+  .vertical-align: middle;
+}
+/* line 76, ../../../app/stylesheets/shapado/basics/reset.sass */
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 80, ../../../app/stylesheets/shapado/basics/reset.sass */
+input[type="submit"], input[type="button"] {
+  .padding: 2px 0 0;
+}
+
+/* line 83, ../../../app/stylesheets/shapado/basics/reset.sass */
+legend {
+  .margin-left: -6px;
+}
+
+/* line 86, ../../../app/stylesheets/shapado/basics/reset.sass */
+textarea {
+  overflow: auto;
+}
+
+/* line 90, ../../../app/stylesheets/shapado/basics/reset.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 94, ../../../app/stylesheets/shapado/basics/reset.sass */
+ul, ol {
+  list-style: none;
+}
+
+/* line 101, ../../../app/stylesheets/shapado/basics/reset.sass */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 106, ../../../app/stylesheets/shapado/basics/reset.sass */
+  * {
+    -webkit-box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 109, ../../../app/stylesheets/shapado/basics/reset.sass */
+  html {
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: text;
+  }
+
+  /* line 115, ../../../app/stylesheets/shapado/basics/reset.sass */
+  body {
+    -webkit-text-stroke: 0 black;
+  }
+
+  /* line 117, ../../../app/stylesheets/shapado/basics/reset.sass */
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+@media print {
+  /* line 123, ../../../app/stylesheets/shapado/basics/reset.sass */
+  body {
+    color: black !important;
+    font-size: 12pt !important;
+  }
+
+  /* line 127, ../../../app/stylesheets/shapado/basics/reset.sass */
+  a:after, abbr[title]:after {
+    font-size: 75%;
+  }
+
+  /* line 129, ../../../app/stylesheets/shapado/basics/reset.sass */
+  a:after {
+    content: " (" attr(href) ") ";
+  }
+
+  /* line 131, ../../../app/stylesheets/shapado/basics/reset.sass */
+  abbr[title] {
+    border: 0;
+  }
+  /* line 133, ../../../app/stylesheets/shapado/basics/reset.sass */
+  abbr[title]:after {
+    content: " (" attr(title) ") ";
+  }
+}
+/* line 11, ../../../app/stylesheets/shapado/basics/tipography.sass */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+/* line 17, ../../../app/stylesheets/shapado/basics/tipography.sass */
+h1, .h1 {
+  font: 1;
+}
+
+/* line 19, ../../../app/stylesheets/shapado/basics/tipography.sass */
+h2, .h2 {
+  font: 1;
+}
+
+/* line 21, ../../../app/stylesheets/shapado/basics/tipography.sass */
+h3, .h3 {
+  font: 1;
+}
+
+/* line 23, ../../../app/stylesheets/shapado/basics/tipography.sass */
+h4, .h4 {
+  font: 1;
+}
+
+/* line 25, ../../../app/stylesheets/shapado/basics/tipography.sass */
+h5, .h5 {
+  font: 1;
+}
+
+/* line 27, ../../../app/stylesheets/shapado/basics/tipography.sass */
+h6, .h6 {
+  font: 1;
+}
+
+/* line 29, ../../../app/stylesheets/shapado/basics/tipography.sass */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: bold;
+}
+
+/* line 39, ../../../app/stylesheets/shapado/basics/tipography.sass */
+p, .p,
+ul, ol, li,
+a {
+  font: normal 0.722;
+}
+
+/* line 43, ../../../app/stylesheets/shapado/basics/tipography.sass */
+br {
+  font-size: 0px;
+}
+
+/* line 48, ../../../app/stylesheets/shapado/basics/tipography.sass */
+b, .b,
+strong, .strong {
+  font-weight: bold;
+}
+
+/* line 51, ../../../app/stylesheets/shapado/basics/tipography.sass */
+em, .em,
+i, .i {
+  font-style: italic;
+}
+
+/* line 54, ../../../app/stylesheets/shapado/basics/tipography.sass */
+small, .small,
+sub, .sub,
+sup, .sup {
+  font-size: 11px;
+}
+
+/* line 61, ../../../app/stylesheets/shapado/basics/tipography.sass */
+code, .code,
+pre, .pre {
+  font-family: courier, freemono, "nimbus mono l", "liberation mono", monospace;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/layout/generals.sass */
+#columns {
+  width: 1000px;
+  margin: 10px auto 0 auto;
+  zoom: 1;
+}
+/* line 7, ../../../app/stylesheets/shapado/layout/generals.sass */
+#columns section {
+  zoom: 1;
+}
+/* line 9, ../../../app/stylesheets/shapado/layout/generals.sass */
+#columns section:before, #columns section:after {
+  display: table;
+  content: "";
+}
+/* line 12, ../../../app/stylesheets/shapado/layout/generals.sass */
+#columns section:after {
+  clear: both;
+}
+/* line 14, ../../../app/stylesheets/shapado/layout/generals.sass */
+#columns:before, #columns:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 19, ../../../app/stylesheets/shapado/layout/generals.sass */
+#columns:after {
+  clear: both;
+}
+
+/* line 22, ../../../app/stylesheets/shapado/layout/generals.sass */
+#container {
+  margin-top: 47px;
+}
+
+/* line 26, ../../../app/stylesheets/shapado/layout/generals.sass */
+.doc-layout .top-page {
+  margin: 30px 50px 0 50px;
+}
+
+/* line 31, ../../../app/stylesheets/shapado/layout/generals.sass */
+.notice {
+  border: 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px black;
+}
+
+/* line 38, ../../../app/stylesheets/shapado/layout/generals.sass */
+.error {
+  background-repeat: repeat-x;
+}
+
+/* line 40, ../../../app/stylesheets/shapado/layout/generals.sass */
+.message {
+  background-repeat: repeat-x;
+}
+
+/* line 46, ../../../app/stylesheets/shapado/layout/generals.sass */
+.pagination {
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
+}
+/* line 50, ../../../app/stylesheets/shapado/layout/generals.sass */
+.pagination span a {
+  padding: 7px 10px 7px 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 53, ../../../app/stylesheets/shapado/layout/generals.sass */
+.pagination span.current {
+  padding: 7px 7px 7px 10px;
+  margin: 0 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/layout/columns.sass */
+section {
+  float: left;
+}
+/* line 5, ../../../app/stylesheets/shapado/layout/columns.sass */
+section.left-panel {
+  width: 190px;
+  display: inline;
+  text-align: left;
+  margin: 0 3px 0 0;
+}
+/* line 11, ../../../app/stylesheets/shapado/layout/columns.sass */
+section.content-panel {
+  min-height: 545px;
+  width: 620px;
+  display: block;
+  margin: 0 3px 0 0;
+}
+/* line 16, ../../../app/stylesheets/shapado/layout/columns.sass */
+section.content-panel.nosidebar {
+  width: 800px;
+}
+/* line 18, ../../../app/stylesheets/shapado/layout/columns.sass */
+section.content-panel#column2 {
+  margin: 16px auto;
+}
+/* line 21, ../../../app/stylesheets/shapado/layout/columns.sass */
+section.right-panel {
+  width: 310px;
+  display: inline;
+  float: right;
+}
+
+/* line 25, ../../../app/stylesheets/shapado/layout/columns.sass */
+.index .tag-list {
+  margin: 0;
+}
+
+/* line 28, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap {
+  margin-bottom: 3px;
+  zoom: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 32, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap article.Question.accepted {
+  border-left: 5px solid #a2c538;
+}
+/* line 34, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap article {
+  padding: 20px 15px 15px 20px;
+  width: 585px;
+}
+/* line 37, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap article:last-child {
+  border: 0px;
+}
+/* line 39, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap article .user-data {
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+/* line 42, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap article h2 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 10px 0 5px 0;
+  width: 505px;
+  white-space: normal !important;
+}
+/* line 48, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap article h2:first-letter {
+  text-transform: uppercase;
+}
+/* line 50, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap:before, #main-content-wrap:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 55, ../../../app/stylesheets/shapado/layout/columns.sass */
+#main-content-wrap:after {
+  clear: both;
+}
+
+/* line 58, ../../../app/stylesheets/shapado/layout/columns.sass */
+.empty_questions {
+  padding: 20px;
+  overflow: hidden;
+  margin: 0;
+  width: 505px;
+}
+/* line 63, ../../../app/stylesheets/shapado/layout/columns.sass */
+.empty_questions img {
+  float: left;
+  margin: 0 20px;
+}
+
+/* line 69, ../../../app/stylesheets/shapado/layout/columns.sass */
+.moderate-answers-controller #main-content-wrap .buttons {
+  margin: 30px;
+}
+
+/* line 73, ../../../app/stylesheets/shapado/layout/columns.sass */
+.moderate-questions-controller #main-content-wrap .filters {
+  margin-bottom: 20px;
+}
+
+/* line 76, ../../../app/stylesheets/shapado/layout/columns.sass */
+.feedback #main-content-wrap {
+  padding: 30px 0;
+}
+/* line 78, ../../../app/stylesheets/shapado/layout/columns.sass */
+.feedback #main-content-wrap .buttons {
+  margin: 0 60px 0 0;
+}
+
+/* line 84, ../../../app/stylesheets/shapado/layout/columns.sass */
+.classic section.content-panel {
+  width: 685px;
+}
+/* line 86, ../../../app/stylesheets/shapado/layout/columns.sass */
+.classic section.content-panel #main-content-wrap article {
+  width: 625px;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/layout/header.sass */
+.brand h1 a {
+  display: block;
+  padding: 15px 0;
+  margin: 0 0 -10px 0;
+}
+/* line 8, ../../../app/stylesheets/shapado/layout/header.sass */
+.brand h1 a img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 130px;
+  width: 190px;
+}
+
+/* line 15, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar {
+  height: 40px;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  z-index: 1000;
+  -moz-box-shadow: 0 2px 3px #999999;
+  -webkit-box-shadow: 0 2px 3px #999999;
+  -o-box-shadow: 0 2px 3px #999999;
+  -khtml-box-shadow: 0 2px 3px #999999;
+  box-shadow: 0 2px 3px #999999;
+}
+/* line 22, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .searcher {
+  float: left;
+  height: 40px;
+}
+/* line 26, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .searcher form#search {
+  position: absolute;
+  top: 2px;
+  left: 200px;
+  overflow: hidden;
+  width: auto;
+}
+/* line 33, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .searcher form#search .field {
+  float: left;
+  margin: 6px 0 0 0;
+}
+/* line 37, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .searcher form#search .field input {
+  margin: 0;
+  float: left;
+  width: 150px;
+  padding: 2px 5px 2px 25px;
+}
+/* line 43, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .languages_filter {
+  float: left;
+  padding: 6px 6px 6px 10px;
+  height: 28px;
+}
+/* line 47, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .languages_filter .field {
+  margin: 0;
+}
+/* line 49, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .languages_filter input {
+  display: none;
+}
+/* line 51, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-bar .languages_filter select {
+  width: auto;
+  padding: 2px !important;
+  height: 22px !important;
+}
+
+/* line 60, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-classic {
+  padding: 10px 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+/* line 64, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-classic .brand {
+  float: left;
+}
+/* line 66, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-classic .brand * {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: auto;
+}
+/* line 70, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-classic .brand img {
+  margin: 0 !important;
+  max-height: 40px;
+}
+/* line 73, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-classic .menubar {
+  float: left;
+  margin: 5px 0 0 20px;
+}
+/* line 76, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-classic .menubar a {
+  margin-right: 3px;
+  padding: 8px 15px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 80, ../../../app/stylesheets/shapado/layout/header.sass */
+.top-classic .menubar .drop-menu {
+  margin-top: 4px;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer {
+  clear: both;
+  float: none;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+/* line 9, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul {
+  width: 555px;
+  margin: 0 auto;
+}
+/* line 13, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li:first-child a {
+  margin: 0 20px 0 0;
+}
+/* line 15, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li:last-child {
+  border: none;
+}
+/* line 17, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li:last-child a {
+  margin-right: 0;
+}
+/* line 19, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li {
+  float: left;
+  display: inline;
+  margin: 0 0 10px 0;
+}
+/* line 24, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li a {
+  margin: 0 10px;
+  font-size: 12px;
+}
+/* line 27, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 29, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer p {
+  clear: both;
+  float: none;
+  margin: 0 0 3px 0;
+  font-size: 12px;
+}
+/* line 34, ../../../app/stylesheets/shapado/layout/footer.sass */
+footer p a:hover {
+  border-bottom: 1px dotted;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.module {
+  margin-bottom: 3px;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 7, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.module h3 {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+/* line 10, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.module footer {
+  text-align: right;
+  padding: 5px 0 0 0;
+}
+/* line 13, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.module footer a {
+  font-style: italic;
+}
+
+/* line 18, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.footer-widgets {
+  max-width: 1000px;
+  margin: 0 auto;
+  clear: both;
+}
+
+/* line 23, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.header-widgets {
+  float: left;
+  width: 860px;
+}
+
+/* line 31, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone .avatar {
+  padding: 0 5px 5px 0;
+  float: left;
+}
+/* line 34, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone .avatar a {
+  border: none;
+}
+/* line 37, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone .greeting {
+  float: left;
+  width: 72%;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+/* line 43, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone .greeting small {
+  display: block;
+  font-size: 10px;
+  margin: 2px 0;
+}
+/* line 47, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone .greeting b {
+  font-size: 12px;
+}
+/* line 50, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone .open {
+  display: none;
+}
+/* line 58, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone nav.user-nav ul li a {
+  padding: 5px;
+  display: block;
+}
+/* line 61, ../../../app/stylesheets/shapado/widgets/generals.sass */
+.user-zone nav.user-nav ul li a:first-letter {
+  text-transform: capitalize;
+}
+
+/* line 4, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-pages ul li, .widget-links ul li, .widget-tag_cloud ul li {
+  margin: 0 0 2px 0;
+}
+/* line 6, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-pages ul li a, .widget-links ul li a, .widget-tag_cloud ul li a {
+  padding: 4px 5px;
+  display: block;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 10, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-pages ul li a:first-letter, .widget-links ul li a:first-letter, .widget-tag_cloud ul li a:first-letter {
+  text-transform: capitalize;
+}
+
+/* line 16, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul {
+  overflow: hidden;
+}
+/* line 18, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li {
+  margin: 3px;
+  float: left;
+  display: inline;
+}
+/* line 22, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li a {
+  display: block;
+  text-indent: -1000000px;
+  height: 16px;
+  width: 16px;
+}
+/* line 27, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .facebook {
+  background: url("/images/facebook.png") 0 0 no-repeat;
+}
+/* line 29, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .twitter {
+  background: url("/images/twitter.png") 0 0 no-repeat;
+}
+/* line 31, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .digg {
+  background: url("/images/digg.png") 0 0 no-repeat;
+}
+/* line 33, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .youtube {
+  background: url("/images/youtube.png") 0 0 no-repeat;
+}
+/* line 35, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .flickr {
+  background: url("/images/youtube.png") 0 0 no-repeat;
+}
+/* line 37, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .linkedin {
+  background: url("/images/linkedin.png") 0 0 no-repeat;
+}
+/* line 39, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .blog {
+  background: url("/images/rss.png") 0 0 no-repeat;
+}
+/* line 41, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .github {
+  background: url("/images/github.png") 0 0 no-repeat;
+}
+/* line 43, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .lastfm {
+  background: url("/images/lastfm.png") 0 0 no-repeat;
+}
+/* line 45, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .reddit {
+  background: url("/images/reddit.png") 0 0 no-repeat;
+}
+/* line 47, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-group_networks ul li .ohloh {
+  background: url("/images/ohloh.png") 0 0 no-repeat;
+}
+
+/* line 53, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .active-tags {
+  padding-bottom: 5px;
+}
+/* line 55, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .active-tags a {
+  line-height: 22px;
+  margin: 0 2px;
+}
+/* line 58, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .active-tags .remove_tag {
+  padding: 0 4px;
+  line-height: 12px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  border-radius: 50px;
+}
+/* line 65, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span a, .widget-tag_cloud .list_cloud span a {
+  line-height: 24px;
+  padding: 3px 5px 2px 5px;
+  line-height: 22px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* line 71, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .xxs, .widget-tag_cloud .list_cloud span .xxs {
+  font-size: 10px;
+}
+/* line 73, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .xs, .widget-tag_cloud .list_cloud span .xs {
+  font-size: 12px;
+}
+/* line 75, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .s, .widget-tag_cloud .list_cloud span .s {
+  font-size: 14px;
+}
+/* line 77, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .m, .widget-tag_cloud .list_cloud span .m {
+  font-size: 16px;
+}
+/* line 79, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .xm, .widget-tag_cloud .list_cloud span .xm {
+  font-size: 18px;
+}
+/* line 81, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .xxm, .widget-tag_cloud .list_cloud span .xxm {
+  font-size: 20px;
+}
+/* line 83, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .l, .widget-tag_cloud .list_cloud span .l {
+  font-size: 22px;
+}
+/* line 85, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .xl, .widget-tag_cloud .list_cloud span .xl {
+  font-size: 24px;
+}
+/* line 87, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-tag_cloud .tag_cloud span .xxl, .widget-tag_cloud .list_cloud span .xxl {
+  font-size: 26px;
+}
+
+/* line 95, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_groups aside {
+  overflow: hidden;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+/* line 100, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_groups aside .avatar {
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+}
+/* line 106, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_groups aside .avatar img {
+  width: 40px;
+  height: 40px;
+}
+/* line 112, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_groups aside .data h3 {
+  margin: 0 !important;
+  border: 0px;
+}
+/* line 115, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_groups aside .data h3 small {
+  font-size: 9px;
+  font-weight: normal !important;
+  font-style: italic;
+}
+/* line 119, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_groups aside .data p {
+  font-size: 12px;
+}
+
+/* line 125, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_users li, .widget-users ul li {
+  overflow: hidden;
+  display: block;
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+}
+/* line 131, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_users li .avatar, .widget-users ul li .avatar {
+  float: left;
+  margin-right: 5px;
+}
+/* line 136, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_users li .data, .widget-users ul li .data {
+  float: left;
+}
+/* line 138, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_users li .data h5, .widget-users ul li .data h5 {
+  margin: 1px 0 0 0;
+}
+/* line 140, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_users li .data h5 a, .widget-users ul li .data h5 a {
+  font-size: 12px;
+}
+/* line 142, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-top_users li .data h5 small, .widget-users ul li .data h5 small {
+  display: block;
+  font-size: 9px;
+  font-weight: normal !important;
+  font-style: italic;
+}
+
+/* line 150, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-badges ul, .widget-share ul {
+  padding: 10px;
+}
+/* line 152, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-badges ul li, .widget-share ul li {
+  margin: 0;
+  height: 36px;
+}
+
+/* line 160, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-suggestions li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+/* line 164, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-suggestions li:last-child {
+  border: 0px;
+}
+/* line 166, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-suggestions li .info {
+  float: left;
+}
+/* line 168, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-suggestions li .info .link a {
+  font-weight: bold;
+}
+/* line 170, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-suggestions li .info .f-link a {
+  font-size: 11px;
+  line-height: 11px;
+  font-style: italic;
+  padding: 2px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 176, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-suggestions img {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+/* line 184, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-badges ul, .widget-question_badges ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 187, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-badges ul li, .widget-question_badges ul li {
+  margin: 0 0 3px 0;
+  height: 26px;
+}
+/* line 191, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-badges ul .badge_item a.badge, .widget-question_badges ul .badge_item a.badge {
+  font-size: 11.5px;
+  padding: 4px;
+  display: block;
+  width: 100px;
+  float: left;
+  text-align: center;
+  margin: 0 10px 0 0;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 201, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-badges ul .badge_item .user, .widget-question_badges ul .badge_item .user {
+  margin: 4px 0 0 0;
+  float: left;
+}
+
+/* line 207, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-related_questions ul {
+  margin: 0 0 0 20px;
+}
+/* line 209, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-related_questions ul li {
+  list-style: disc;
+  margin-bottom: 8px;
+}
+/* line 212, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-related_questions ul li:first-letter {
+  text-transform: uppercase;
+}
+
+/* line 217, ../../../app/stylesheets/shapado/widgets/all.sass */
+.widget-contributors a {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+/* line 228, ../../../app/stylesheets/shapado/widgets/all.sass */
+.left-panel .widget-suggestions li .info {
+  float: right;
+}
+/* line 230, ../../../app/stylesheets/shapado/widgets/all.sass */
+.left-panel .widget-suggestions img {
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+/* line 238, ../../../app/stylesheets/shapado/widgets/all.sass */
+.header-widgets .widget-suggestions li, .footer-widgets .widget-suggestions li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  width: 145px;
+  border: 0px;
+}
+/* line 245, ../../../app/stylesheets/shapado/widgets/all.sass */
+.header-widgets .widget-suggestions li .info, .footer-widgets .widget-suggestions li .info {
+  float: left;
+}
+/* line 247, ../../../app/stylesheets/shapado/widgets/all.sass */
+.header-widgets .widget-suggestions li .info .link a, .footer-widgets .widget-suggestions li .info .link a {
+  font-weight: bold;
+}
+/* line 249, ../../../app/stylesheets/shapado/widgets/all.sass */
+.header-widgets .widget-suggestions li .info .f-link a, .footer-widgets .widget-suggestions li .info .f-link a {
+  font-size: 11px;
+  line-height: 11px;
+  font-style: italic;
+  padding: 2px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 255, ../../../app/stylesheets/shapado/widgets/all.sass */
+.header-widgets .widget-suggestions img, .footer-widgets .widget-suggestions img {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges h1 {
+  margin: 30px 0 10px 30px;
+}
+/* line 5, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges p {
+  margin: 0 30px 30px 30px;
+}
+/* line 7, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges .content {
+  padding: 0 30px 30px 30px;
+}
+/* line 10, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges ul li {
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+/* line 14, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges ul li .badge_item {
+  width: 40%;
+  float: left;
+}
+/* line 18, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges ul li .badge_description {
+  width: 55%;
+  float: left;
+  margin: 5px;
+}
+/* line 23, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges ul li .badge {
+  width: 65%;
+  float: left;
+  padding: 5px 10px;
+  display: block;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 30, ../../../app/stylesheets/shapado/modules/badges.sass */
+.badges ul li .counter {
+  float: left;
+  width: 15%;
+  font-size: 12px;
+  margin: 5px;
+  font-style: italic;
+}
+
+/* line 38, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show {
+  padding-top: 50px;
+}
+/* line 41, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .description {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/* line 45, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .description p {
+  font-size: 15px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 51, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .description .badge_item {
+  margin: 0 0 15px 0;
+  height: 38px;
+}
+/* line 54, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .description .badge_item a {
+  padding: 10px 30px;
+  font-size: 24px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  border-radius: 50px;
+  -moz-box-shadow: 0 2px 3px #999999;
+  -webkit-box-shadow: 0 2px 3px #999999;
+  -o-box-shadow: 0 2px 3px #999999;
+  -khtml-box-shadow: 0 2px 3px #999999;
+  box-shadow: 0 2px 3px #999999;
+}
+/* line 60, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .counter {
+  text-align: center;
+}
+/* line 62, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .counter p {
+  font-size: 14px;
+  font-style: italic;
+}
+/* line 66, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users {
+  padding: 0 50px 50px 50px;
+}
+/* line 69, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li {
+  padding: 20px 0;
+}
+/* line 72, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .stats {
+  width: 20%;
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 77, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .stats .box {
+  height: 20px;
+}
+/* line 80, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .stats .box .counter {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  font-size: 12px;
+  border: 0px;
+}
+/* line 87, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .stats .box .text {
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 12px;
+  width: 70%;
+}
+/* line 94, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .summary {
+  float: left;
+  width: 70% !important;
+}
+/* line 97, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .summary img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 100, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .summary h3 {
+  margin-bottom: 5px;
+}
+/* line 102, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .summary h3 a {
+  font-size: 26px;
+}
+/* line 104, ../../../app/stylesheets/shapado/modules/badges.sass */
+#badges_show .users ul li .summary .owner-data strong {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* line 2, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices {
+  padding: 30px 0 !important;
+  width: 800px;
+  margin: 0 auto 10px auto !important;
+}
+/* line 6, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form {
+  margin: 0 auto;
+  width: 600px !important;
+}
+/* line 9, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info {
+  overflow: hidden;
+  padding: 0 0 20px 0;
+}
+/* line 12, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info .brand {
+  float: left;
+}
+/* line 14, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info .references {
+  float: right;
+  padding: 10px;
+}
+/* line 17, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info p {
+  margin: 0 0 5px 0 !important;
+  padding: 0 !important;
+  font-size: 14px;
+  text-align: left;
+}
+/* line 22, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info p strong {
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 27, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks {
+  clear: both;
+  display: block;
+  padding: 25px;
+  margin: 0 0 20px 0;
+}
+/* line 32, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p {
+  line-height: 16px;
+  margin: 0;
+  text-align: center;
+}
+/* line 36, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p a {
+  font-size: 10px;
+  font-style: italic;
+  margin: 10px 0 0 0;
+}
+/* line 40, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 42, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p.action {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+/* line 47, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p.action em {
+  margin: 0 5px;
+  font-size: 16px;
+}
+/* line 51, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .contact-details {
+  overflow: hidden;
+  margin: 0 0 15px 0;
+}
+/* line 54, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .contact-details .name {
+  float: left;
+  width: 286px;
+  margin: 0 20px 0 0;
+}
+/* line 58, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .contact-details .lastname {
+  float: left;
+  width: 286px;
+}
+/* line 62, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards {
+  overflow: hidden;
+  padding: 0 0 15px 0;
+}
+/* line 65, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards label {
+  margin-bottom: 15px;
+}
+/* line 67, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards input {
+  width: 30px;
+  margin: 10px 0 0 0;
+}
+/* line 70, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards .visa {
+  background: url("/images/visa.gif") 30px 0 no-repeat;
+  height: 30px;
+  width: 90px;
+  float: left;
+}
+/* line 75, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards .master {
+  background: url("/images/mastercard.gif") 30px 0 no-repeat;
+  height: 30px;
+  width: 90px;
+  float: left;
+}
+/* line 80, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards .amex {
+  background: url("/images/amex.gif") 30px 0 no-repeat;
+  height: 30px;
+  width: 90px;
+  float: left;
+}
+/* line 86, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field {
+  width: 286px;
+  float: left;
+}
+/* line 89, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field:first-child {
+  margin: 0 20px 0 0;
+}
+/* line 92, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field .checkbox input, .invoices .half .field .checkbox label {
+  float: right;
+}
+/* line 94, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field .checkbox input {
+  width: 25px;
+}
+/* line 96, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field .checkbox label {
+  width: 255px;
+}
+/* line 99, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half select {
+  width: auto;
+}
+/* line 101, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .cc-info {
+  margin: 0 0 20px 0;
+  height: 145px;
+}
+/* line 105, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices table {
+  margin: 30px 0;
+}
+/* line 107, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices table td {
+  padding: 10px;
+  text-align: right;
+}
+
+/* line 114, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices {
+  min-height: 600px;
+  width: 100% !important;
+  padding: 30px !important;
+}
+/* line 118, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices table {
+  font-size: 12px;
+  margin: 0;
+}
+/* line 121, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices table td {
+  padding: 10px;
+}
+/* line 124, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices table thead td, .manage-layout .invoices table thead tr td td {
+  font-weight: bold;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* line 131, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice {
+  padding: 30px !important;
+}
+/* line 133, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .brand {
+  float: left;
+  margin: 0 0 80px 0;
+}
+/* line 136, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .references {
+  float: right;
+  margin: 0 30px 0 0;
+}
+/* line 139, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .references p {
+  margin: 0 0 5px 0 !important;
+  font-size: 14px;
+  text-align: left;
+}
+/* line 143, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .references p strong {
+  font-weight: bold;
+}
+/* line 145, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice h2 {
+  display: block;
+  float: none;
+  clear: both;
+  font-size: 22px;
+  margin: 40px 0 25px 0;
+  padding: 0 0 5px 0;
+}
+/* line 152, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice p {
+  margin: 0 0 15px 150px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+/* line 157, ../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice p strong {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 1, ../../../app/stylesheets/shapado/modules/pages.sass */
+.pages-controller .pages form {
+  overflow: hidden;
+  padding: 30px 0;
+}
+/* line 4, ../../../app/stylesheets/shapado/modules/pages.sass */
+.pages-controller .pages form .buttons {
+  margin: 0 50px 0 0;
+}
+
+/* line 9, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .title {
+  padding: 20px 20px 0 20px;
+  font-size: 25px;
+  font-weight: bold;
+  overflow: hidden;
+}
+/* line 14, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .title a {
+  float: right;
+  border: none;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 8px 15px 6px 15px;
+  width: auto;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 22, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page {
+  padding: 20px;
+}
+/* line 24, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page h2 {
+  margin: 0 0 10px 0;
+}
+/* line 26, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page h2 a {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+/* line 30, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page p {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 0 5px 0;
+}
+/* line 34, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page small {
+  font-style: italic;
+  font-size: 11px;
+  display: block;
+  margin: 0 0 10px 0;
+}
+/* line 39, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page .actions-bar {
+  overflow: hidden;
+  border: 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 43, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page .actions-bar li {
+  float: left;
+}
+/* line 45, ../../../app/stylesheets/shapado/modules/pages.sass */
+.page-list .page .actions-bar li a {
+  padding: 5px 10px;
+  display: block;
+}
+
+/* line 49, ../../../app/stylesheets/shapado/modules/pages.sass */
+#pages_show {
+  padding: 20px;
+}
+/* line 51, ../../../app/stylesheets/shapado/modules/pages.sass */
+#pages_show .toolbar {
+  margin-bottom: 30px;
+}
+/* line 53, ../../../app/stylesheets/shapado/modules/pages.sass */
+#pages_show .toolbar li a {
+  float: right;
+}
+/* line 55, ../../../app/stylesheets/shapado/modules/pages.sass */
+#pages_show p {
+  margin: 0 0 20px 0;
+  line-height: 18px;
+}
+
+/* line 60, ../../../app/stylesheets/shapado/modules/pages.sass */
+.generic-text {
+  padding: 30px;
+  width: 960px;
+  margin: 0 auto 10px auto;
+}
+/* line 64, ../../../app/stylesheets/shapado/modules/pages.sass */
+.generic-text h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+/* line 69, ../../../app/stylesheets/shapado/modules/pages.sass */
+.generic-text p {
+  margin: 0 100px 20px 100px;
+  font-size: 13px;
+  line-height: 18px;
+}
+/* line 73, ../../../app/stylesheets/shapado/modules/pages.sass */
+.generic-text p strong {
+  font-weight: bold;
+}
+/* line 75, ../../../app/stylesheets/shapado/modules/pages.sass */
+.generic-text ul li {
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0 100px 20px 100px;
+}
+/* line 79, ../../../app/stylesheets/shapado/modules/pages.sass */
+.generic-text ul li p {
+  margin: 10px 0 0 30px;
+}
+
+/* line 83, ../../../app/stylesheets/shapado/modules/pages.sass */
+.chat #main-content-wrap {
+  padding: 30px 50px;
+}
+/* line 85, ../../../app/stylesheets/shapado/modules/pages.sass */
+.chat .top-page {
+  margin: 0;
+}
+
+/* line 88, ../../../app/stylesheets/shapado/modules/pages.sass */
+.display-color {
+  width: 50px;
+  height: 1em;
+}
+
+/* line 92, ../../../app/stylesheets/shapado/modules/pages.sass */
+.ui-widget-header {
+  border: 0px !important;
+}
+
+/* line 96, ../../../app/stylesheets/shapado/modules/pages.sass */
+.ui-dialog .auth-list {
+  border: 0px !important;
+}
+/* line 98, ../../../app/stylesheets/shapado/modules/pages.sass */
+.ui-dialog .auth-list ul {
+  margin: 0 10px 0 0 !important;
+}
+/* line 100, ../../../app/stylesheets/shapado/modules/pages.sass */
+.ui-dialog .auth-list ul li {
+  display: block !important;
+  float: none !important;
+}
+
+/* line 105, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users h1 {
+  margin: 30px 30px 20px 30px;
+}
+/* line 107, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul {
+  overflow: hidden;
+  margin: 0 0 30px 30px;
+}
+/* line 110, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul li {
+  width: 24px;
+  height: 24px;
+  display: inline;
+}
+/* line 114, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul li a {
+  text-indent: -9999px;
+  display: block;
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  padding: 0 !important;
+  margin: 0 5px 0 0;
+  border: none;
+  float: left;
+}
+/* line 124, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul li a:hover {
+  background-color: transparent !important;
+}
+/* line 126, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul li a.facebook {
+  background: url("/images/share/facebook.png") 0 0 no-repeat;
+}
+/* line 128, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul li a.twitter {
+  background: url("/images/share/twitter.png") 0 0 no-repeat;
+}
+/* line 130, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul li a.identica {
+  background: url("/images/share/identi.png") 0 0 no-repeat;
+}
+/* line 132, ../../../app/stylesheets/shapado/modules/pages.sass */
+.social_connect .users ul li a.linkedin {
+  background: url("/images/share/linkedin.png") 0 0 no-repeat;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/modules/users.sass */
+.users {
+  border: 0px !important;
+  padding: 0;
+}
+
+/* line 8, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData {
+  float: left !important;
+  width: 20% !important;
+}
+/* line 12, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData .avatar {
+  padding: 20px;
+}
+/* line 14, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData .avatar img {
+  margin: 0 auto 5px auto;
+  float: none;
+}
+/* line 17, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData .avatar p {
+  text-align: center;
+  border: 0px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 23, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData .avatar p a {
+  clear: both;
+  font-style: italic;
+}
+/* line 26, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData .avatar p a:hover {
+  border: 0px;
+  border-bottom: 1px dotted;
+}
+/* line 30, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData h3 {
+  font-size: 14px;
+  padding: 13px;
+}
+/* line 34, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData ul.badges {
+  padding: 13px 10px;
+}
+/* line 36, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData ul.badges li {
+  height: 27px;
+}
+/* line 38, ../../../app/stylesheets/shapado/modules/users.sass */
+.userData ul.badges li a {
+  padding: 2px 10px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* line 49, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .userDescription {
+  padding: 20px;
+}
+/* line 51, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .userDescription img {
+  float: left;
+  margin: 0 15px 5px 0;
+}
+/* line 54, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .userDescription small, .userHistory .userDescription small a {
+  font-size: 11px;
+  font-style: italic;
+}
+/* line 57, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .userDescription .basicInfo {
+  width: 350px;
+  float: left;
+}
+/* line 60, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .userDescription h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+/* line 63, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .userDescription p {
+  margin: 0 0 10px 0;
+}
+/* line 65, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .userDescription .description {
+  margin: 0 0 5px 0;
+}
+/* line 67, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory ul.profile-stats {
+  float: right;
+  width: 150px;
+  padding-top: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 72, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory ul.profile-stats li {
+  padding: 5px;
+  text-align: center;
+  float: left;
+  width: 65px;
+}
+/* line 77, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory ul.profile-stats li small {
+  font-size: 10px;
+  display: block;
+}
+/* line 80, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory ul.profile-stats li strong {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+/* line 84, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory ul.profile-stats li.follow {
+  border: none;
+  width: 130px;
+  margin: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 89, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory ul.profile-stats li.follow a {
+  display: block;
+}
+
+/* line 97, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .badges {
+  padding: 20px;
+  overflow: hidden;
+}
+/* line 100, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .badges h3 {
+  margin: 0 0 10px 0;
+}
+/* line 103, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .badges ul li {
+  float: left;
+  width: auto;
+  margin: 0 0 5px 0 !important;
+}
+/* line 107, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .badges ul li .badge_item {
+  width: 125px;
+  display: block;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* line 112, ../../../app/stylesheets/shapado/modules/users.sass */
+.userHistory .badges ul li .badge_item a {
+  padding: 3px 10px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+  margin: 0 !important;
+}
+
+/* line 121, ../../../app/stylesheets/shapado/modules/users.sass */
+#users_show .users {
+  margin: 0;
+}
+/* line 123, ../../../app/stylesheets/shapado/modules/users.sass */
+#users_show .users .filters {
+  margin-bottom: 20px;
+}
+/* line 125, ../../../app/stylesheets/shapado/modules/users.sass */
+#users_show .users article {
+  padding-left: 40px;
+}
+/* line 127, ../../../app/stylesheets/shapado/modules/users.sass */
+#users_show .users article p, #users_show .users article h2 {
+  padding: 0 !important;
+  margin: 0 0 5px 0 !important;
+  border: 0px !important;
+}
+
+/* line 135, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container form {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 141, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container form .field {
+  margin: 0 auto;
+  width: 400px;
+  padding: 0;
+}
+/* line 145, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container form .field input {
+  width: auto;
+  float: left;
+  height: 29px;
+}
+/* line 149, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container form .field #q {
+  width: 300px;
+  float: left;
+  height: auto;
+  background-image: none !important;
+}
+/* line 155, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container ul {
+  padding: 0 30px 30px 30px;
+}
+/* line 157, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container ul li {
+  padding: 20px 0;
+}
+/* line 160, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container ul li .logo {
+  float: left;
+  overflow: hidden;
+  margin: 0 10px 0 0;
+}
+/* line 164, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container ul li .summary {
+  float: left;
+}
+/* line 166, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container ul li .summary h3 {
+  margin: 0 0 5px 0;
+}
+/* line 168, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container ul li .summary h3 a {
+  font-size: 24px;
+}
+/* line 171, ../../../app/stylesheets/shapado/modules/users.sass */
+.users_container ul li .summary p {
+  border: 0px !important;
+  padding: 0 !important;
+}
+
+/* line 176, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .top {
+  overflow: hidden;
+  padding: 30px;
+}
+/* line 180, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .top form .field {
+  width: 100%;
+  margin: 0;
+}
+/* line 183, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .top form .field label {
+  font-weight: normal;
+  margin: 0 0 5px 0;
+}
+/* line 186, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .top form .field input {
+  float: left;
+  width: 300px;
+  margin: 0 10px 0 0;
+}
+/* line 190, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .top form .field .filter_input {
+  display: block !important;
+  width: auto;
+  float: left;
+  border: 0px;
+}
+/* line 195, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .filters {
+  overflow: hidden;
+}
+/* line 197, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .filters li {
+  float: left;
+  display: inline;
+}
+/* line 200, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .filters li strong {
+  padding: 10px 5px 10px 20px;
+  font-weight: bold;
+  display: block;
+}
+/* line 204, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users .filters li a {
+  display: block;
+  padding: 10px 15px;
+  border-bottom: 2px solid transparent;
+}
+/* line 210, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li {
+  padding: 5px;
+}
+/* line 212, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .stats {
+  width: 130px;
+  float: left;
+  padding: 10px;
+  overflow: hidden;
+}
+/* line 217, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .stats p {
+  float: left;
+  margin-bottom: 5px;
+  font-size: 11px !important;
+}
+/* line 221, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .stats .box {
+  clear: both;
+  overflow: hidden;
+  display: block;
+  margin: 0 0 5px 0;
+}
+/* line 226, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .stats .counter, .list-users ul.items li .stats .text {
+  float: left;
+}
+/* line 228, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .stats .counter {
+  margin-right: 10px;
+  width: 30px;
+  text-align: right;
+}
+/* line 232, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .summary {
+  padding: 10px 0;
+  font-size: 12px;
+}
+/* line 235, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .summary img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 238, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .summary h3 {
+  margin-bottom: 5px;
+}
+/* line 240, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .summary h3 a {
+  font-size: 26px;
+}
+/* line 243, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .summary .owner-data {
+  padding: 5px 0 0 0;
+}
+/* line 245, ../../../app/stylesheets/shapado/modules/users.sass */
+.list-users ul.items li .summary .owner-data strong {
+  font-style: italic;
+}
+
+/* line 1, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container {
+  margin: 0;
+}
+/* line 3, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container h1 {
+  margin: 30px 0 10px 30px !important;
+}
+/* line 5, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container p.description {
+  margin: 0 30px 30px 30px;
+}
+/* line 7, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container form {
+  margin: 0 30px 20px 30px;
+  overflow: hidden;
+}
+/* line 10, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container form .field {
+  margin: 0;
+}
+/* line 12, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container form .field input {
+  width: 98% !important;
+}
+/* line 15, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li {
+  padding: 20px 30px;
+}
+/* line 17, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .logo {
+  float: left;
+  width: 100px;
+  overflow: hidden;
+  margin: 0 10px 0 0;
+  padding: 5px;
+}
+/* line 23, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .summary {
+  float: left;
+  width: 360px;
+  margin: 0 0 10px 0;
+}
+/* line 27, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .summary h3 {
+  margin: 0;
+}
+/* line 29, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .summary .markdown {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 12px;
+}
+/* line 33, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .actions {
+  float: left;
+  padding: 5px;
+}
+/* line 36, ../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .actions a {
+  margin: 0 5px;
+}
+
+/* History question */
+/* ------------------------------------------------------------ */
+/* line 4, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history {
+  width: auto !important;
+  margin: 0;
+  padding: 0;
+}
+/* line 9, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li {
+  padding: 20px !important;
+  overflow: hidden;
+}
+/* line 12, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top {
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+/* line 16, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top p {
+  font-size: 13px;
+  font-weight: bold;
+  float: left;
+  margin: 0 10px 0 0 !important;
+  float: left;
+}
+/* line 22, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top .diff {
+  float: left;
+}
+/* line 24, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top small {
+  float: right;
+  margin: -13px 0 0 0;
+}
+/* line 27, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li p.description, form.history ul li .markdown {
+  margin: 10px 0 !important;
+  padding: 0 !important;
+  border: 0px !important;
+}
+/* line 31, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li p.author {
+  margin: 0 !important;
+  float: left;
+}
+/* line 34, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .version-nav {
+  float: right;
+}
+/* line 36, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .tag-list {
+  float: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 10px 0 !important;
+  overflow: hidden;
+}
+/* line 42, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .tag-list li, form.history ul li .tag-list li strong {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0px !important;
+  height: auto !important;
+}
+/* line 47, ../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .tag-list li strong {
+  font-weight: bold;
+}
+
+/* line 50, ../../../app/stylesheets/shapado/modules/history.sass */
+.buttons-history {
+  text-align: right;
+  clear: both;
+  padding: 20px;
+}
+/* line 54, ../../../app/stylesheets/shapado/modules/history.sass */
+.buttons-history input {
+  border: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  width: auto;
+}
+
+/* line 60, ../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view {
+  padding: 20px;
+}
+/* line 62, ../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view .navform {
+  padding: 7px;
+  text-align: right;
+}
+/* line 65, ../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view h2 {
+  font-weight: bold;
+}
+/* line 67, ../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view p {
+  font-size: 14px;
+  padding: 10px;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 20px;
+}
+/* line 7, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li .role {
+  position: absolute;
+  right: 5px;
+  padding: 5px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 13, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li .stats {
+  width: 90px;
+  float: left;
+}
+/* line 16, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li .stats p {
+  margin-bottom: 3px;
+  font-size: 11px;
+  margin: 0 0 3px 0 !important;
+}
+/* line 20, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li .user-info {
+  float: left;
+  width: auto !important;
+}
+/* line 23, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li .user-info p.description {
+  margin: 5px 0 !important;
+  font-size: 11px;
+}
+/* line 26, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li .user-info small {
+  font-style: italic;
+  font-size: 12px;
+  margin: 0;
+}
+/* line 30, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li form {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  float: right;
+}
+/* line 35, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li form .field {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+/* line 39, ../../../app/stylesheets/shapado/modules/members.sass */
+.manage-layout .members ul li form .field select {
+  width: auto;
+  margin: 0 10px 0 0;
+}
+
+/* line 4, ../../../app/stylesheets/shapado/modules/activities.sass */
+.activities section article p {
+  margin: 0 0 7px 0;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments {
+  margin: 20px 0;
+}
+/* line 5, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment {
+  background: url("/images/comments-icon-small.gif") 40px 5px no-repeat !important;
+  padding: 5px 10px 5px 60px !important;
+  border: 0px !important;
+  display: block;
+}
+/* line 10, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment img {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+/* line 14, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .comment-body span {
+  margin: 0;
+  padding: 0;
+}
+/* line 17, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .comment-content {
+  display: inline;
+}
+/* line 19, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .comment-content p:first-child {
+  display: inline;
+}
+/* line 21, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .comment-votes {
+  position: relative;
+}
+/* line 23, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .comment-votes form {
+  position: absolute;
+  left: -51px;
+  display: inline;
+  width: 200px;
+}
+/* line 28, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .comment-votes .upvote-comment, .comments article.comment .comment-votes .upvoted-comment {
+  border: 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #a2c538;
+  color: white;
+  padding: 3px 5px;
+  font-size: 12px;
+}
+/* line 35, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment time {
+  font-size: 11px;
+  font-style: italic;
+  float: left;
+  margin: 5px 5px 0 0;
+}
+/* line 40, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment p {
+  font-size: 12.5px;
+  line-height: 14px;
+}
+/* line 43, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .actions {
+  clear: left;
+  margin: 3px 0 0 0;
+}
+/* line 46, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .actions a {
+  margin: 0 2px;
+  font-size: 11px;
+}
+/* line 49, ../../../app/stylesheets/shapado/modules/comments.sass */
+.comments article.comment .actions a:hover {
+  border-bottom: 1px dotted;
+}
+
+/* line 52, ../../../app/stylesheets/shapado/modules/comments.sass */
+.toggle_comments {
+  display: none;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question {
+  width: 100%;
+}
+/* line 5, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question h1 {
+  font-size: 25px;
+  margin: 0 15px 5px 15px;
+}
+/* line 8, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question h1:first-letter {
+  text-transform: uppercase;
+}
+/* line 11, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question .author span, .main-question .stats span {
+  margin: 0px 5px 0px 15px;
+}
+/* line 13, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question .author {
+  padding: 15px 15px 5px 15px;
+  font-style: italic;
+}
+/* line 17, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question .stats {
+  margin: 0 15px 10px 15px;
+}
+/* line 19, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question .stats a {
+  font-weight: bold;
+}
+/* line 21, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question #panel-forms {
+  clear: both;
+}
+/* line 23, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.main-question #panel-forms form {
+  width: 96% !important;
+  padding: 2%;
+  display: none;
+  margin: 0;
+}
+
+/* line 31, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap {
+  clear: both;
+}
+/* line 33, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap h2 {
+  padding: 10px 15px 10px 15px;
+}
+/* line 36, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .filters {
+  padding-left: 1%;
+  width: 99%;
+}
+/* line 40, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list {
+  clear: both;
+}
+/* line 42, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .empty {
+  display: block;
+  clear: both;
+  padding: 20px 30px;
+  overflow: hidden;
+}
+/* line 47, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .empty img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 50, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .empty h2 {
+  background: none;
+  border: 0px;
+  padding: 0;
+}
+/* line 56, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list article.solution {
+  background: url("/images/answer-winner.png") 490px 20px no-repeat;
+}
+/* line 58, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list article.solution h4.author {
+  width: 460px;
+}
+/* line 60, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer_vote_box {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 64, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer_vote_box .votes_average {
+  padding: 5px 0;
+  text-align: center;
+}
+/* line 67, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer_vote_box .vote_box button {
+  height: 25px;
+  width: 24px;
+  border: 0px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 72, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer_vote_box .vote_box button.negative {
+  background-image: url("/images/question-toolbar-icons-small.png");
+  background-position: 5px -402px;
+  background-repeat: no-repeat;
+}
+/* line 76, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer_vote_box .vote_box button.negative:hover, #answers-content-wrap .answers-list .answer_vote_box .vote_box button.negative.checked {
+  background-position: 5px -417px;
+}
+/* line 78, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer_vote_box .vote_box button.positive {
+  background-image: url("/images/question-toolbar-icons-small.png");
+  background-position: 5px -449px;
+  background-repeat: no-repeat;
+}
+/* line 82, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer_vote_box .vote_box button.positive:hover, #answers-content-wrap .answers-list .answer_vote_box .vote_box button.positive.checked {
+  background-position: 5px -434px;
+}
+/* line 86, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer .author {
+  margin: 0 0 5px 0;
+}
+/* line 88, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer .author * {
+  font-size: 11px;
+  font-weight: normal;
+  font-style: italic;
+}
+/* line 92, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer .author .user-data a {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 96, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#answers-content-wrap .answers-list .answer .author img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+/* line 102, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.followUp-content {
+  display: block;
+  clear: both;
+  padding: 20px 30px;
+  overflow: hidden;
+}
+
+/* line 108, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#close_reason {
+  padding: 10px;
+  clear: both;
+  float: none;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* line 118, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#panel-forms {
+  height: 100%;
+  clear: both;
+  padding: 0;
+}
+/* line 123, ../../../app/stylesheets/shapado/modules/main-question.sass */
+#panel-forms form {
+  display: none;
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+  overflow: hidden;
+}
+
+/* line 131, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question h1 {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  border: none;
+}
+/* line 136, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul {
+  overflow: hidden;
+  width: 345px;
+  margin: 0 auto;
+}
+/* line 141, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li {
+  width: 24px;
+  height: 24px;
+  display: inline;
+}
+/* line 145, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li a {
+  text-indent: -9999px;
+  display: block;
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  padding: 0 !important;
+  margin: 0 5px 0 0;
+  border: none;
+  float: left;
+}
+/* line 155, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li a:hover {
+  background-color: transparent !important;
+}
+/* line 158, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.facebook a {
+  background: url("/images/share/facebook.png") 0 0 no-repeat;
+}
+/* line 160, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.twitter a {
+  background: url("/images/share/twitter.png") 0 0 no-repeat;
+}
+/* line 162, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.identica a {
+  background: url("/images/share/identi.png") 0 0 no-repeat;
+}
+/* line 164, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.digg a {
+  background: url("/images/share/digg.png") 0 0 no-repeat;
+}
+/* line 166, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.blogger a {
+  background: url("/images/share/blogger.png") 0 0 no-repeat;
+}
+/* line 168, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.delicious a {
+  background: url("/images/share/delicious.png") 0 0 no-repeat;
+}
+/* line 170, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.linkedin a {
+  background: url("/images/share/linkedin.png") 0 0 no-repeat;
+}
+/* line 172, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.misterwong a {
+  background: url("/images/share/mister-wong.png") 0 0 no-repeat;
+}
+/* line 174, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.stumbleupon a {
+  background: url("/images/share/stumbleupon.png") 0 0 no-repeat;
+}
+/* line 176, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.googlebuzz a {
+  background: url("/images/share/google-buzz.png") 0 0 no-repeat;
+}
+/* line 178, ../../../app/stylesheets/shapado/modules/main-question.sass */
+.share_question ul li.friendster a {
+  background: url("/images/share/frinedster.png") 0 0 no-repeat;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/modules/suggestions.sass */
+.suggestions #main-content-wrap h3 {
+  margin: 30px 30px 20px 30px;
+  font-size: 20px;
+}
+/* line 6, ../../../app/stylesheets/shapado/modules/suggestions.sass */
+.suggestions #main-content-wrap ul {
+  overflow: hidden;
+}
+/* line 8, ../../../app/stylesheets/shapado/modules/suggestions.sass */
+.suggestions #main-content-wrap ul li {
+  padding: 10px 30px;
+  width: 121px;
+  height: 50px;
+  float: left;
+  overflow: hidden;
+}
+/* line 14, ../../../app/stylesheets/shapado/modules/suggestions.sass */
+.suggestions #main-content-wrap ul li img {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+/* line 18, ../../../app/stylesheets/shapado/modules/suggestions.sass */
+.suggestions #main-content-wrap ul li .info {
+  float: right;
+  width: 80px;
+}
+/* line 21, ../../../app/stylesheets/shapado/modules/suggestions.sass */
+.suggestions #main-content-wrap ul li .info .link {
+  font-weight: bold;
+}
+/* line 23, ../../../app/stylesheets/shapado/modules/suggestions.sass */
+.suggestions #main-content-wrap ul li .info .f-link a {
+  font-size: 11px;
+  line-height: 11px;
+  font-style: italic;
+  padding: 2px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 4, ../../../app/stylesheets/shapado/others/forms.sass */
+form fieldset {
+  margin-bottom: 18px;
+  padding-top: 18px;
+}
+/* line 7, ../../../app/stylesheets/shapado/others/forms.sass */
+form fieldset legend {
+  display: block;
+  margin-left: 150px;
+  font-size: 18px;
+  line-height: 100;
+  *margin: 0 0 5px 145px;
+  /* IE6-7 */
+  *line-height: 1.5;
+  /* IE6-7 */
+}
+/* line 17, ../../../app/stylesheets/shapado/others/forms.sass */
+form label, form input, form select, form textarea {
+  font: normal 1 Helvetica, Arial, sans-serif;
+}
+/* line 20, ../../../app/stylesheets/shapado/others/forms.sass */
+form .field {
+  margin: 0 50px 20px 50px;
+}
+/* line 23, ../../../app/stylesheets/shapado/others/forms.sass */
+form label {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: bold;
+}
+/* line 28, ../../../app/stylesheets/shapado/others/forms.sass */
+form .checkbox input,
+form .radio input,
+form input[type=checkbox], form form input[type=radio] {
+  cursor: pointer;
+}
+/* line 33, ../../../app/stylesheets/shapado/others/forms.sass */
+form select,
+form form input[type=file] {
+  height: 28px !important;
+  line-height: 24px;
+}
+/* line 38, ../../../app/stylesheets/shapado/others/forms.sass */
+form textarea {
+  height: auto;
+}
+/* line 41, ../../../app/stylesheets/shapado/others/forms.sass */
+form input[type=text],
+form input[type=password],
+form textarea,
+form select,
+form .uneditable-input {
+  display: inline-block;
+  width: 437px;
+  margin: 0;
+  padding: 4px;
+  font-size: 13px;
+  line-height: 18px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 54, ../../../app/stylesheets/shapado/others/forms.sass */
+form input[type=text],
+form input[type=password],
+form select,
+form textarea {
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s, background-color linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s, background-color linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s, background-color linear 0.2s;
+}
+/* line 62, ../../../app/stylesheets/shapado/others/forms.sass */
+form input[type=text]:focus,
+form form input[type=password]:focus,
+form form textarea:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+/* line 70, ../../../app/stylesheets/shapado/others/forms.sass */
+form .error {
+  padding: 10px 0;
+  margin: -10px 0 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 75, ../../../app/stylesheets/shapado/others/forms.sass */
+form .radio, form .checkbox {
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+/* line 80, ../../../app/stylesheets/shapado/others/forms.sass */
+form .radio label, form .checkbox label {
+  float: right;
+  width: 95%;
+  font-weight: normal;
+}
+/* line 85, ../../../app/stylesheets/shapado/others/forms.sass */
+form .radio input, form .checkbox input {
+  float: left;
+  width: 15px !important;
+  margin-right: 5px;
+}
+/* line 90, ../../../app/stylesheets/shapado/others/forms.sass */
+form .column {
+  width: 50%;
+  float: left;
+}
+/* line 93, ../../../app/stylesheets/shapado/others/forms.sass */
+form .column input {
+  margin: 0 !important;
+}
+/* line 95, ../../../app/stylesheets/shapado/others/forms.sass */
+form .column label {
+  width: 87% !important;
+}
+/* line 98, ../../../app/stylesheets/shapado/others/forms.sass */
+form .capcha {
+  clear: both;
+  float: none;
+  display: block;
+}
+/* line 103, ../../../app/stylesheets/shapado/others/forms.sass */
+form hr {
+  border: none;
+  margin-bottom: 20px;
+}
+/* line 107, ../../../app/stylesheets/shapado/others/forms.sass */
+form .form-options {
+  clear: both;
+  overflow: hidden;
+}
+/* line 110, ../../../app/stylesheets/shapado/others/forms.sass */
+form .form-options .column {
+  width: 30%;
+}
+/* line 112, ../../../app/stylesheets/shapado/others/forms.sass */
+form .form-options .column label {
+  white-space: nowrap;
+}
+/* line 116, ../../../app/stylesheets/shapado/others/forms.sass */
+form .birthday select {
+  width: 30%;
+}
+/* line 118, ../../../app/stylesheets/shapado/others/forms.sass */
+form .birthday select:nth-child(2) {
+  width: 68px;
+}
+/* line 120, ../../../app/stylesheets/shapado/others/forms.sass */
+form .birthday select:nth-child(3) {
+  width: 150px;
+}
+/* line 122, ../../../app/stylesheets/shapado/others/forms.sass */
+form .birthday select:nth-child(4) {
+  width: 60px;
+}
+/* line 125, ../../../app/stylesheets/shapado/others/forms.sass */
+form .buttons {
+  float: right;
+  padding-top: 8px;
+}
+/* line 128, ../../../app/stylesheets/shapado/others/forms.sass */
+form .buttons input.save {
+  margin-top: -8px;
+  margin-right: 5px;
+  border: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  float: left;
+  width: auto;
+}
+/* line 137, ../../../app/stylesheets/shapado/others/forms.sass */
+form .follow-up-msg {
+  padding: 15px;
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+/* line 141, ../../../app/stylesheets/shapado/others/forms.sass */
+form .follow-up-msg p {
+  margin: 0;
+}
+/* line 143, ../../../app/stylesheets/shapado/others/forms.sass */
+form .follow-up-msg p a {
+  display: block;
+}
+/* line 147, ../../../app/stylesheets/shapado/others/forms.sass */
+form .group-logo .img-up {
+  float: left !important;
+  margin: 0 10px 0 0;
+}
+/* line 150, ../../../app/stylesheets/shapado/others/forms.sass */
+form .group-logo .size {
+  width: 160px;
+  margin-top: 39px;
+  float: left;
+}
+/* line 154, ../../../app/stylesheets/shapado/others/forms.sass */
+form .group-logo .size input {
+  float: left !important;
+  width: 50px !important;
+}
+/* line 157, ../../../app/stylesheets/shapado/others/forms.sass */
+form .group-logo .size span {
+  float: left;
+  padding: 7px;
+  display: block;
+}
+/* line 161, ../../../app/stylesheets/shapado/others/forms.sass */
+form small {
+  display: block;
+  clear: both;
+  margin: 5px 0 0 0;
+}
+/* line 166, ../../../app/stylesheets/shapado/others/forms.sass */
+form .manage-domain {
+  list-style-type: decimal !important;
+  margin: 0 0 20px 20px;
+}
+/* line 169, ../../../app/stylesheets/shapado/others/forms.sass */
+form .manage-domain li {
+  margin: 0 0 20px 0;
+}
+/* line 171, ../../../app/stylesheets/shapado/others/forms.sass */
+form .domain-url {
+  height: 30px;
+  padding: 10px;
+}
+/* line 174, ../../../app/stylesheets/shapado/others/forms.sass */
+form .domain-url input {
+  float: right !important;
+}
+/* line 176, ../../../app/stylesheets/shapado/others/forms.sass */
+form .domain-url span {
+  font-size: 16px;
+  float: left;
+  margin: 6px 0 0 8px;
+}
+/* line 182, ../../../app/stylesheets/shapado/others/forms.sass */
+form .asked-twitter span {
+  float: left;
+  padding: 7px 5px 0 0;
+}
+/* line 185, ../../../app/stylesheets/shapado/others/forms.sass */
+form .asked-twitter input {
+  width: 94%;
+}
+/* line 188, ../../../app/stylesheets/shapado/others/forms.sass */
+form .follow-up-msg {
+  background-color: #fffbeb;
+  margin: 0 30px 30px 30px;
+  font-size: 18px;
+}
+/* line 192, ../../../app/stylesheets/shapado/others/forms.sass */
+form .follow-up-msg a {
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}
+
+/* line 199, ../../../app/stylesheets/shapado/others/forms.sass */
+.buttons {
+  float: right;
+}
+
+/* line 201, ../../../app/stylesheets/shapado/others/forms.sass */
+input[type=submit], input.save, .add_attachment {
+  display: inline-block;
+  background-repeat: repeat-x;
+  padding: 4px 14px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 13px;
+}
+/* line 210, ../../../app/stylesheets/shapado/others/forms.sass */
+input[type=submit]:hover, input.save:hover, .add_attachment:hover {
+  background-position: 0 -30px;
+  text-decoration: none;
+}
+
+/* line 217, ../../../app/stylesheets/shapado/others/forms.sass */
+.questions form.question_comment_form,
+.questions form.answer_comment_form {
+  padding: 5px 20px 1px 20px;
+  margin: 0 0 10px 35px;
+}
+/* line 221, ../../../app/stylesheets/shapado/others/forms.sass */
+.questions form.question_comment_form textarea,
+.questions form.answer_comment_form textarea {
+  width: 420px;
+  height: 100px;
+  margin: 0 0 10px 0;
+}
+/* line 225, ../../../app/stylesheets/shapado/others/forms.sass */
+.questions .edit_comment_form {
+  padding: 0 20px 1px 20px;
+  margin: 10px -10px 10px 0 !important;
+}
+/* line 228, ../../../app/stylesheets/shapado/others/forms.sass */
+.questions .edit_comment_form textarea {
+  width: 395px;
+}
+
+/* line 231, ../../../app/stylesheets/shapado/others/forms.sass */
+.edit_answer {
+  padding: 20px;
+  width: auto !important;
+  overflow: hidden;
+  margin-top: 10px;
+}
+/* line 236, ../../../app/stylesheets/shapado/others/forms.sass */
+.edit_answer .field {
+  margin: 0;
+}
+/* line 238, ../../../app/stylesheets/shapado/others/forms.sass */
+.edit_answer .field input {
+  margin-bottom: 10px;
+}
+
+/* line 244, ../../../app/stylesheets/shapado/others/forms.sass */
+.ask_question .tagwrapper, .edit .questions .tagwrapper {
+  width: 437px !important;
+}
+/* line 246, ../../../app/stylesheets/shapado/others/forms.sass */
+.ask_question h1, .ask_question h1 span, .edit .questions h1, .edit .questions h1 span {
+  font-size: 18px;
+  padding: 20px 20px 5px 20px;
+  display: block;
+}
+/* line 250, ../../../app/stylesheets/shapado/others/forms.sass */
+.ask_question p, .edit .questions p {
+  margin: 0 20px 40px 20px;
+}
+/* line 252, ../../../app/stylesheets/shapado/others/forms.sass */
+.ask_question .buttons, .edit .questions .buttons {
+  margin-bottom: 30px;
+}
+
+/* line 258, ../../../app/stylesheets/shapado/others/forms.sass */
+.related_questions #related_questions * {
+  border: 0px;
+}
+/* line 260, ../../../app/stylesheets/shapado/others/forms.sass */
+.related_questions #related_questions .toolbar {
+  display: none;
+}
+/* line 262, ../../../app/stylesheets/shapado/others/forms.sass */
+.related_questions #related_questions article {
+  padding: 0;
+  margin: 0;
+}
+/* line 265, ../../../app/stylesheets/shapado/others/forms.sass */
+.related_questions #related_questions article h3 {
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 268, ../../../app/stylesheets/shapado/others/forms.sass */
+.related_questions #related_questions article h3 a {
+  background-color: #fffbeb;
+  padding: 5px 10px;
+  border: 0px !important;
+  display: block;
+}
+/* line 273, ../../../app/stylesheets/shapado/others/forms.sass */
+.related_questions #related_questions article h3 a:first-letter {
+  text-transform: uppercase;
+}
+
+/* line 280, ../../../app/stylesheets/shapado/others/forms.sass */
+.groups-controller #main-content-wrap h1 {
+  margin: 30px;
+}
+/* line 284, ../../../app/stylesheets/shapado/others/forms.sass */
+.groups-controller #main-content-wrap form .domain small {
+  float: left !important;
+  font-size: 13px !important;
+  line-height: 20px;
+}
+/* line 288, ../../../app/stylesheets/shapado/others/forms.sass */
+.groups-controller #main-content-wrap form .buttons {
+  margin: 0 50px 30px 0;
+}
+
+/* line 294, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap {
+  padding: 30px;
+  width: 545px;
+}
+/* line 297, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap h1 {
+  margin: 0 0 10px 0;
+}
+/* line 299, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap p {
+  margin: 0 0 30px 0;
+}
+/* line 302, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap .ui-tabs, .manage-layout #main-content-wrap .ui-tabs-nav {
+  background: transparent;
+  border: 0px;
+}
+/* line 307, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap .ui-tabs .ui-tabs-nav li a, .manage-layout #main-content-wrap .ui-tabs-nav .ui-tabs-nav li a {
+  font-size: 13px;
+  font-weight: normal;
+}
+/* line 310, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .manage-layout #main-content-wrap .ui-tabs-nav .ui-tabs-nav li.ui-tabs-selected a {
+  font-weight: bold;
+}
+/* line 312, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap .ui-tabs .field, .manage-layout #main-content-wrap .ui-tabs-nav .field {
+  margin: 0;
+  padding: 20px;
+}
+/* line 315, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout #main-content-wrap .ui-tabs .field input, .manage-layout #main-content-wrap .ui-tabs-nav .field input {
+  width: 100%;
+}
+
+/* line 322, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout .access form {
+  margin-top: 30px;
+}
+/* line 324, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout .access form h2 {
+  margin: 0 0 20px 0;
+  padding: 0px 0 5px 0;
+  font-size: 14px;
+  display: block;
+}
+/* line 329, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout .access form .settings {
+  margin-bottom: 40px;
+}
+/* line 331, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout .access form .settings select {
+  width: 430px;
+  margin: 10px 30px;
+}
+/* line 335, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout .access form .providers .field {
+  float: left !important;
+  margin: 0;
+}
+/* line 338, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout .access form .providers .field label {
+  width: 150px;
+}
+
+/* line 344, ../../../app/stylesheets/shapado/others/forms.sass */
+.invitations-ready {
+  margin: 0 30px 30px 30px;
+}
+/* line 346, ../../../app/stylesheets/shapado/others/forms.sass */
+.invitations-ready ul {
+  margin: 0 0 0 20px;
+}
+/* line 348, ../../../app/stylesheets/shapado/others/forms.sass */
+.invitations-ready ul li {
+  list-style: disc;
+  overflow: hidden;
+  margin: 0 0 30px 0;
+}
+/* line 352, ../../../app/stylesheets/shapado/others/forms.sass */
+.invitations-ready ul li form {
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+/* line 359, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcements .date-msg select {
+  width: auto;
+}
+/* line 362, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcements .list-announcements {
+  margin: 50px 60px 0 60px;
+}
+/* line 365, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcements .list-announcements .each-announcement li {
+  overflow: hidden;
+  padding: 20px;
+}
+/* line 368, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcements .list-announcements .each-announcement li p {
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 5px 0;
+}
+/* line 372, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcements .list-announcements .each-announcement li .date {
+  font-size: 11px;
+  font-weight: normal !important;
+  margin-bottom: 10px;
+}
+/* line 376, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcements .list-announcements .each-announcement li .strong {
+  font-weight: normal;
+  font-style: italic !important;
+}
+/* line 379, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcements .list-announcements .each-announcement li a {
+  padding: 5px 10px;
+  float: right;
+}
+
+/* line 383, ../../../app/stylesheets/shapado/others/forms.sass */
+.announcement {
+  padding: 15px;
+  margin-bottom: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 391, ../../../app/stylesheets/shapado/others/forms.sass */
+.manage-layout .widgets {
+  width: 100% !important;
+}
+
+/* line 395, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget {
+  padding: 20px;
+  margin: 0 0 20px 0;
+  overflow: hidden;
+}
+/* line 399, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget form {
+  float: left;
+  margin: 0 30px 0 0;
+}
+/* line 402, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget form .field {
+  float: left;
+  margin: 0 0 10px 0;
+}
+/* line 405, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget form .field select {
+  width: auto;
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 409, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget form .buttons {
+  float: left;
+  margin: 16px 0 0 0;
+}
+/* line 413, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget .zone, .widgets-admin .select-widget .type {
+  float: left;
+  width: 100px;
+  margin: 0 10px 0 0;
+}
+/* line 417, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget .zone img, .widgets-admin .select-widget .type img {
+  width: 60px;
+}
+/* line 419, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget .zone p, .widgets-admin .select-widget .type p {
+  margin: 0 0 10px 0 !important;
+}
+/* line 421, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .select-widget .zone p strong, .widgets-admin .select-widget .type p strong {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  display: block;
+}
+/* line 428, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .container {
+  margin-bottom: 20px;
+  overflow: hidden;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 433, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .header {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 443, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .header a {
+  float: right;
+  font-weight: normal;
+}
+/* line 447, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .top {
+  padding: 10px;
+  font-size: 12px;
+}
+/* line 450, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .top p {
+  margin: 5px 0 !important;
+  line-height: 15px;
+}
+/* line 453, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .top .img {
+  width: 13px;
+}
+/* line 455, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .top form {
+  margin: 0;
+}
+/* line 457, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .top form input {
+  margin: 6px 0 0 10px;
+}
+/* line 459, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .container .top form p {
+  float: left;
+  font-weight: bold;
+  margin: 2px 10px 0 0;
+}
+/* line 464, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .navbar .container {
+  width: 180px;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* line 469, ../../../app/stylesheets/shapado/others/forms.sass */
+.widgets-admin .sidebar .container {
+  width: 300px;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 480, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap h1 {
+  margin: 30px 0 0 30px;
+}
+/* line 482, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap p {
+  margin: 0 0 30px 30px;
+}
+/* line 484, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap .buttons {
+  padding: 30px;
+}
+
+/* line 489, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap .search-form {
+  overflow: hidden;
+}
+/* line 491, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap .search-form .buttons {
+  margin-top: -60px;
+}
+/* line 493, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap ul {
+  border-top: 1px solid #e5e5e5;
+}
+/* line 495, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap .save-search {
+  overflow: hidden;
+  margin-top: 30px;
+  padding: 20px 0 0 0;
+}
+/* line 499, ../../../app/stylesheets/shapado/others/forms.sass */
+.searches-controller #main-content-wrap .save-search .buttons {
+  margin: -40px 20px 0 0;
+}
+
+/* line 506, ../../../app/stylesheets/shapado/others/forms.sass */
+.users-controller .users form h1 {
+  margin: 30px 0 0 30px;
+  padding-bottom: 30px;
+}
+/* line 509, ../../../app/stylesheets/shapado/others/forms.sass */
+.users-controller .users form .buttons {
+  padding: 30px;
+}
+
+/* line 515, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-sessions-controller #main-content-wrap, .devise-unlocks-controller #main-content-wrap, .users-controller.new #main-content-wrap {
+  width: 545px;
+  padding: 30px;
+  margin: 80px auto;
+}
+/* line 519, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-sessions-controller #main-content-wrap h1, .devise-unlocks-controller #main-content-wrap h1, .users-controller.new #main-content-wrap h1 {
+  margin-bottom: 30px;
+}
+/* line 521, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-sessions-controller #main-content-wrap p, .devise-unlocks-controller #main-content-wrap p, .users-controller.new #main-content-wrap p {
+  margin: -20px 0 30px 0;
+}
+/* line 523, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-sessions-controller #main-content-wrap .checkbox, .devise-unlocks-controller #main-content-wrap .checkbox, .users-controller.new #main-content-wrap .checkbox {
+  margin: 0 0 0 25px;
+}
+/* line 525, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-sessions-controller #main-content-wrap ul, .devise-unlocks-controller #main-content-wrap ul, .users-controller.new #main-content-wrap ul {
+  display: block;
+  clear: both;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+/* line 530, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-sessions-controller #main-content-wrap ul li, .devise-unlocks-controller #main-content-wrap ul li, .users-controller.new #main-content-wrap ul li {
+  list-style: disc;
+  margin: 0 0 6px 0;
+}
+
+/* line 535, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap {
+  width: 545px;
+  padding: 30px;
+  margin: 80px auto;
+}
+/* line 539, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap p.description {
+  margin-bottom: 30px;
+}
+/* line 541, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap .errorExplanation {
+  margin: 0 0 20px 0;
+  padding: 20px;
+}
+/* line 544, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap .errorExplanation h1 {
+  margin: 0;
+}
+/* line 546, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap .errorExplanation p {
+  margin-top: 0;
+}
+/* line 548, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap .checkbox {
+  margin: 0 0 0 25px;
+}
+/* line 550, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap ul {
+  display: block;
+  clear: both;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+/* line 555, ../../../app/stylesheets/shapado/others/forms.sass */
+.devise-passwords-controller #main-content-wrap ul li {
+  list-style: disc;
+  margin: 0 0 6px 0;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar li ul {
+  display: none;
+}
+
+/* line 5, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar, .menubar * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 9, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar {
+  line-height: 1;
+}
+/* line 11, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar .sf-sub-indicator {
+  position: absolute;
+  display: block;
+  right: 8px;
+  top: 1.05em;
+  width: 10px;
+  height: 10px;
+  text-indent: -999em;
+  overflow: hidden;
+  background: url("../images/arrows-ffffff.png") no-repeat -10px -100px;
+}
+/* line 23, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar .drop-menu a {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+}
+/* line 29, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar .drop-menu ul li:hover {
+  visibility: inherit;
+  cursor: pointer;
+}
+/* line 32, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar .drop-menu ul li a {
+  display: block;
+  position: relative;
+  border-right: 0px !important;
+  border-left: 0px !important;
+}
+/* line 37, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar .drop-menu ul li a:hover {
+  cursor: pointer;
+}
+/* line 40, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar ul {
+  position: absolute;
+  top: -999em;
+  width: auto;
+  -moz-box-shadow: 0 2px 3px #999999;
+  -webkit-box-shadow: 0 2px 3px #999999;
+  -o-box-shadow: 0 2px 3px #999999;
+  -khtml-box-shadow: 0 2px 3px #999999;
+  box-shadow: 0 2px 3px #999999;
+}
+/* line 45, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar ul li {
+  width: 100%;
+  display: block;
+}
+/* line 49, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar li {
+  float: left;
+  position: relative;
+}
+/* line 52, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar li:hover ul, .menubar li.sfHover ul, .menubar li.dropHover ul {
+  left: 0;
+  top: 24px;
+  z-index: 99;
+}
+/* line 56, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar li:hover li ul, .menubar li.sfHover li ul, .menubar li.dropHover li ul {
+  top: -999em;
+}
+/* line 58, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar li li:hover ul, .menubar li li.sfHover ul, .menubar li li.dropHover ul {
+  left: auto;
+  top: 0;
+}
+/* line 61, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar li li li:hover ul, .menubar li li li.sfHover ul, .menubar li li li.dropHover ul {
+  left: auto;
+  top: 0;
+}
+
+/* line 66, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar a.sf-with-ul {
+  min-width: 1px;
+}
+
+/* line 70, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar a > .sf-sub-indicator {
+  top: 0.8em;
+  background-position: 0 -100px;
+}
+
+/* line 77, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+  background-position: -10px -100px;
+}
+
+/* line 87, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar ul .sf-sub-indicator {
+  background-position: -10px 0;
+}
+/* line 89, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar ul a > .sf-sub-indicator {
+  background-position: 0 0;
+}
+
+/* line 94, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.menubar ul a:focus > .sf-sub-indicator,
+.menubar ul a:hover > .sf-sub-indicator,
+.menubar ul a:active > .sf-sub-indicator,
+.menubar ul li:hover > a > .sf-sub-indicator,
+.menubar ul li.sfHover > a > .sf-sub-indicator {
+  background-position: -10px 0;
+}
+
+/* line 104, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.sf-shadow ul.sf-shadow-off {
+  background: transparent;
+}
+
+/* line 111, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar {
+  float: left;
+}
+/* line 114, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar > li small {
+  position: absolute;
+  top: 2px;
+  left: 15px;
+}
+/* line 118, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar > li > a {
+  display: block;
+  padding: 14px 25px 13px 15px;
+}
+/* line 121, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar ul {
+  top: 40px !important;
+}
+/* line 123, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar ul.drop-menu a {
+  padding: 8px 10px;
+}
+/* line 126, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar ul h3 {
+  padding: 5px;
+}
+/* line 128, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar ul li:first-child {
+  border: 0px;
+}
+/* line 130, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar ul a {
+  border: 0;
+}
+/* line 132, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar .menubar ul a.sf-with-ul {
+  padding-right: 30px;
+}
+/* line 135, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list {
+  float: right;
+}
+/* line 137, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list a {
+  cursor: pointer;
+}
+/* line 139, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list ul li a {
+  padding-left: 10px;
+}
+/* line 141, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.user {
+  position: relative;
+}
+/* line 143, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.user a {
+  padding-left: 50px;
+}
+/* line 145, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.user img {
+  position: absolute;
+  top: 7px;
+  left: 13px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  width: 25px;
+}
+/* line 152, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.notifications-list {
+  width: 2em;
+}
+/* line 154, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.notifications-list a {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 158, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.notifications-list ul {
+  width: 320px;
+  left: -288px;
+}
+/* line 161, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.notifications-list ul li.notification {
+  cursor: auto;
+}
+/* line 162, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.top-bar ul.user-list li.notifications-list ul li.notification .warp {
+  padding: 5px;
+}
+
+/* line 168, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.index .toolbar .dropHover ul,
+.main-question .toolbar .dropHover ul {
+  top: 22px;
+}
+/* line 171, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.index .toolbar .dropHover ul a, .index .toolbar .dropHover ul li,
+.main-question .toolbar .dropHover ul a,
+.main-question .toolbar .dropHover ul li {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 173, ../../../app/stylesheets/shapado/others/drop-menus.sass */
+.main-question .toolbar .dropHover ul {
+  top: 27px;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/others/feedback.sass */
+#feedback-btn {
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  left: -56px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  display: block;
+}
+/* line 12, ../../../app/stylesheets/shapado/others/feedback.sass */
+#feedback-btn p a {
+  padding: 7px 20px;
+  font-size: 18px;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/others/login.sass */
+#login_dialog {
+  display: none;
+  background: white;
+}
+
+/* line 8, ../../../app/stylesheets/shapado/others/login.sass */
+.ui-dialog .auth-list {
+  border: 0px !important;
+}
+/* line 10, ../../../app/stylesheets/shapado/others/login.sass */
+.ui-dialog .auth-list ul {
+  margin: 0 10px 0 0 !important;
+}
+/* line 12, ../../../app/stylesheets/shapado/others/login.sass */
+.ui-dialog .auth-list ul li {
+  display: block !important;
+  float: none !important;
+}
+
+/* line 1, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list {
+  margin: 0px 0 5px 0;
+  float: left;
+  width: 450px;
+}
+/* line 5, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list .retag-form {
+  background-color: #fffbeb;
+  padding: 15px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+/* line 11, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list .retag-form .field {
+  margin: 0;
+}
+/* line 13, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list li, ul.tag-list span.tag {
+  float: left;
+  display: inline;
+  height: 25px;
+}
+/* line 17, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list li a, ul.tag-list span.tag a {
+  background: url("/images/tag-back-lt.png") left 0 no-repeat;
+  background-size: 100% 90%;
+  margin: 0 0 0 7px;
+  font-size: 11px;
+  padding: 3px 7px 4px 18px;
+  display: block;
+}
+/* line 23, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list li a:hover, ul.tag-list span.tag a:hover {
+  background: url("/images/tag-back-lt-hover.png") left 0 no-repeat;
+  background-size: 100% 90%;
+}
+/* line 25, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list li.title, ul.tag-list span.tag.title {
+  font-weight: bolder;
+  font-size: 12px;
+  padding: 2px 0 0 0;
+}
+/* line 29, ../../../app/stylesheets/shapado/others/_tags.sass */
+ul.tag-list li.retag a, ul.tag-list span.tag.retag a {
+  background: url("/images/tag-back-lt-retag.png") left 0 no-repeat;
+}
+
+/* line 33, ../../../app/stylesheets/shapado/others/_tags.sass */
+.main-question ul.tag-list {
+  margin: 0px 20px 5px 20px;
+  float: left;
+  width: 100%;
+}
+
+/* line 40, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tagwrapper {
+  padding: 4px !important;
+  font-size: 11px;
+  margin: 0 0 10px 0 !important;
+  width: 100% !important;
+  min-height: 22px !important;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 47, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tagwrapper ul {
+  margin: 0 2px !important;
+  padding: 0 !important;
+  border: 0px !important;
+  background: none;
+}
+/* line 54, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tagwrapper ul li a {
+  padding: 0 7px 0 18px !important;
+  margin: 0 0 5px 0 !important;
+  background: url("/images/tag-back-lt.png") left 1px no-repeat !important;
+  border: none !important;
+  cursor: pointer;
+}
+/* line 61, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tagwrapper ul li a:hover, .tagwrapper ul li:hover a, .tagwrapper ul li a.ui-state-hover, .tagwrapper ul li span:hover {
+  background: url("/images/tag-back-lt-hover.png") left 1px no-repeat !important;
+}
+
+/* line 68, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tags-list h1 {
+  margin: 30px 0 15px 30px;
+}
+/* line 70, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tags-list .tags {
+  padding: 0 20px;
+}
+/* line 72, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tags-list .tags .each {
+  padding: 15px;
+  margin-bottom: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 76, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tags-list .tags .each img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 79, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tags-list .tags .tools {
+  float: right;
+  padding: 3px 0;
+  margin: -25px 0 15px 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 84, ../../../app/stylesheets/shapado/others/_tags.sass */
+.tags-list .tags .tools a {
+  margin: 0 5px;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/others/editors.sass */
+.jHtmlArea, .ToolBar {
+  width: 100% !important;
+  float: left;
+}
+/* line 6, ../../../app/stylesheets/shapado/others/editors.sass */
+.jHtmlArea iframe, .ToolBar iframe {
+  width: 99.7% !important;
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 200px !important;
+  margin: 0 !important;
+}
+
+/* line 14, ../../../app/stylesheets/shapado/others/editors.sass */
+.question-form .ToolBar {
+  border-bottom: none;
+  width: 99.7% !important;
+}
+
+/* line 18, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea {
+  display: inline block;
+}
+/* line 20, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea div {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 23, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul {
+  margin: 1px 0;
+  padding: 1px;
+  float: left !important;
+  -moz-border-radius: 0;
+  width: auto;
+}
+/* line 29, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li {
+  list-style-type: none;
+  float: left !important;
+  border: none;
+  padding: 1px;
+  margin: 1px;
+}
+/* line 35, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li:hover {
+  border: solid 1px #cccccc;
+  background: #dddddd url(/images/jHtmlArea_Toolbar_Group__Btn_Select_BG.png);
+  padding: 0;
+}
+/* line 39, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url(/images/jHtmlArea.png) no-repeat -16px -500px;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+}
+/* line 47, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.highlighted {
+  padding: 0;
+}
+/* line 49, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li.separator {
+  height: 16px;
+  margin: 0 2px 0 3px;
+}
+/* line 52, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li.separator:hover {
+  padding: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+/* line 59, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.bold {
+  background-position: 0 0;
+}
+/* line 61, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.italic {
+  background-position: -16px 0;
+}
+/* line 63, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.underline {
+  background-position: -32px 0;
+}
+/* line 65, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.strikethrough {
+  background-position: -48px 0;
+}
+/* line 67, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.link {
+  background-position: -64px 0;
+}
+/* line 69, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.unlink {
+  background-position: -80px 0;
+}
+/* line 71, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.orderedlist {
+  background-position: -96px 0;
+}
+/* line 73, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.unorderedlist {
+  background-position: -112px 0;
+}
+/* line 75, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.image {
+  background-position: -128px 0;
+}
+/* line 77, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.cut {
+  background-position: -144px 0;
+}
+/* line 79, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.copy {
+  background-position: -160px 0;
+}
+/* line 81, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.paste {
+  background-position: -176px 0;
+}
+/* line 83, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.html {
+  background-position: -192px 0;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 87, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.html.highlighted {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 90, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.h1 {
+  background-position: 0 -16px;
+}
+/* line 92, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.h2 {
+  background-position: -16px -16px;
+}
+/* line 94, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.h3 {
+  background-position: -32px -16px;
+}
+/* line 96, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.h4 {
+  background-position: -48px -16px;
+}
+/* line 98, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.h5 {
+  background-position: -64px -16px;
+}
+/* line 100, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.h6 {
+  background-position: -80px -16px;
+}
+/* line 102, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.subscript {
+  background-position: -96px -16px;
+}
+/* line 104, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.superscript {
+  background-position: -112px -16px;
+}
+/* line 106, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.indent {
+  background-position: -128px -16px;
+}
+/* line 108, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.outdent {
+  background-position: -144px -16px;
+}
+/* line 110, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.horizontalrule {
+  background-position: -160px -16px;
+}
+/* line 112, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.p {
+  background-position: -176px -16px;
+}
+/* line 114, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.justifyleft {
+  background-position: 0 -32px;
+}
+/* line 116, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.justifycenter {
+  background-position: -16px -32px;
+}
+/* line 118, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.justifyright {
+  background-position: -32px -32px;
+}
+/* line 120, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.increasefontsize {
+  background-position: -48px -32px;
+}
+/* line 122, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.decreasefontsize {
+  background-position: -64px -32px;
+}
+/* line 125, ../../../app/stylesheets/shapado/others/editors.sass */
+div.jHtmlArea .ToolBar ul li a.removeformat {
+  background: url(/images/edit-delete.png) no-repeat;
+  background-position: 0 0;
+}
+
+/* line 131, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar {
+  position: relative;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 18px;
+  margin-bottom: 2px;
+}
+/* line 139, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar li {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  float: left;
+}
+/* line 145, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar li a {
+  width: 24px;
+  height: 16px;
+  float: left;
+  border: 0px !important;
+  display: block;
+  background-image: url(/images/markdown_icons.gif);
+}
+/* line 153, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar li span {
+  display: none;
+}
+/* line 156, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar li a#markdown_help_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 162, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_italics_button {
+  background-position: 0 -119px;
+}
+
+/* line 166, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_bold_button {
+  background-position: 0 -102px;
+}
+
+/* line 170, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_link_button {
+  background-position: 0 0;
+}
+
+/* line 174, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_image_button {
+  background-position: 0 -170px;
+}
+
+/* line 178, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_unordered_list_button {
+  background-position: 0 -34px;
+}
+
+/* line 182, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_ordered_list_button {
+  background-position: 0 -51px;
+}
+
+/* line 186, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_quote_button {
+  background-position: 0 -68px;
+}
+
+/* line 190, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_code_button {
+  background-position: 0 -136px;
+}
+
+/* line 194, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_help_button {
+  background-position: 0 -153px;
+}
+
+/* line 198, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_heading_button {
+  background-position: 0 -85px;
+}
+
+/* line 201, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_latex_button {
+  background-position: 0 -306px;
+}
+
+/* line 204, ../../../app/stylesheets/shapado/others/editors.sass */
+.resizeHandle {
+  overflow: hidden;
+  width: 22px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/handle.png);
+  cursor: n-resize;
+}
+
+/* line 213, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_editor {
+  font-size: 13px;
+  padding: 10px;
+  width: 95.5%;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+/* line 220, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 10px !important;
+}
+/* line 225, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar li a {
+  width: 24px;
+  height: 16px;
+  padding: 0 !important;
+  background-image: url(/images/markdown_icons.gif) !important;
+}
+/* line 230, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar li a span {
+  display: none;
+}
+/* line 233, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_italics_button {
+  background-position: 0 -119px;
+}
+/* line 236, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_bold_button {
+  background-position: 0 -102px;
+}
+/* line 239, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_link_button {
+  background-position: 0 0;
+}
+/* line 242, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_image_button {
+  background-position: 0 -170px;
+}
+/* line 245, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_unordered_list_button {
+  background-position: 0 -34px;
+}
+/* line 248, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_ordered_list_button {
+  background-position: 0 -51px;
+}
+/* line 251, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_quote_button {
+  background-position: 0 -68px;
+}
+/* line 254, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_code_button {
+  background-position: 0 -136px;
+}
+/* line 257, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_help_button {
+  background-position: 0 -153px;
+}
+/* line 260, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_heading_button {
+  background-position: 0 -85px;
+}
+/* line 263, ../../../app/stylesheets/shapado/others/editors.sass */
+.markdown_toolbar #markdown_latex_button {
+  background-position: 0 -306px;
+}
+
+/* line 266, ../../../app/stylesheets/shapado/others/editors.sass */
+.resizeHandle {
+  overflow: hidden;
+  width: 22px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/images/handle.png);
+  cursor: n-resize;
+}
+
+/* line 275, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_preview {
+  width: 96.5%;
+}
+/* line 277, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_preview p {
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+/* line 281, ../../../app/stylesheets/shapado/others/editors.sass */
+#markdown_preview p strong {
+  font-weight: bold;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown {
+  padding: 0 15px;
+}
+/* line 5, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown img {
+  max-width: 100%;
+}
+/* line 7, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown textarea {
+  font-size: 13px;
+  padding: 10px;
+  width: 96.5%;
+  margin-bottom: 10px;
+  height: 200px;
+}
+/* line 14, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown p {
+  margin: 0 0 10px 0;
+}
+/* line 16, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown pre {
+  padding: 10px;
+  line-height: 16px;
+}
+
+/* line 20, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown {
+  width: 93% !important;
+  font-size: 14px;
+}
+/* line 23, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown p {
+  line-height: 18px;
+}
+/* line 25, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown strong {
+  font-weight: bold;
+}
+/* line 27, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown em {
+  font-style: italic;
+}
+/* line 29, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ul {
+  list-style: disc outside;
+  padding: 4px;
+}
+/* line 33, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ol {
+  list-style: decimal outside;
+  padding: 4px;
+  margin: 10px 0 20px 0;
+}
+/* line 37, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ol li {
+  margin: 0 0 7px 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+/* line 41, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ol li a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 44, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown li {
+  margin-left: 1.3em;
+  padding-left: 0.5em;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* line 50, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown code {
+  margin-bottom: 10px;
+  overflow: auto;
+  padding: 5px;
+  width: 100% !important;
+  display: inline-block;
+}
+/* line 58, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown pre code {
+  display: block;
+}
+/* line 61, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown blockquote {
+  width: 80%;
+  padding: 5px;
+  margin: 0.5em;
+  display: block;
+  word-wrap: break-word;
+  quotes: none;
+  vertical-align: baseline;
+}
+/* line 69, ../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown img {
+  max-width: 580px;
+}
+
+/* line 1, ../../../app/stylesheets/shapado/others/quick-question.sass */
+.quick_question {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 0 15px 15px;
+  margin-bottom: 3px;
+}
+/* line 5, ../../../app/stylesheets/shapado/others/quick-question.sass */
+.quick_question h2 {
+  margin: 0 0 5px 0;
+  font-weight: normal;
+  font-style: italic;
+  text-shadow: 0 1px 3px #cccccc;
+}
+/* line 10, ../../../app/stylesheets/shapado/others/quick-question.sass */
+.quick_question h2:first-letter {
+  text-transform: uppercase;
+}
+/* line 13, ../../../app/stylesheets/shapado/others/quick-question.sass */
+.quick_question form {
+  margin: 0;
+}
+/* line 15, ../../../app/stylesheets/shapado/others/quick-question.sass */
+.quick_question form input.text_area {
+  float: left;
+  width: 385px;
+  margin-right: 5px;
+}
+/* line 19, ../../../app/stylesheets/shapado/others/quick-question.sass */
+.quick_question form input.ask_question {
+  float: left;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs {
+  zoom: 1;
+  width: 100%;
+}
+/* line 6, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs:before, ul.content-tabs:after {
+  display: table;
+  content: "";
+}
+/* line 9, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs:after {
+  clear: both;
+}
+/* line 11, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs li {
+  display: inline;
+}
+/* line 13, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs li a {
+  float: left;
+  width: auto;
+  padding: 0 15px 0 36px;
+  display: block;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  background-position: 7px 50%;
+  background-repeat: no-repeat;
+}
+/* line 24, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs li.questions a {
+  background-image: url("/images/q-icon-medium.png");
+}
+/* line 26, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs li.answers a {
+  background-image: url("/images/ans-icon-medium.png");
+}
+/* line 28, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs li.unanswered a {
+  background-image: url("/images/noans-icon-medium.png");
+}
+/* line 30, ../../../app/stylesheets/shapado/others/content-nav.sass */
+ul.content-tabs li.activities a {
+  background-image: url("/images/activity-iacon.png");
+}
+
+/* line 36, ../../../app/stylesheets/shapado/others/content-nav.sass */
+.filters {
+  zoom: 1;
+  width: 100%;
+}
+/* line 40, ../../../app/stylesheets/shapado/others/content-nav.sass */
+.filters ul header {
+  float: left;
+  display: inline;
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+/* line 47, ../../../app/stylesheets/shapado/others/content-nav.sass */
+.filters ul li {
+  display: inline;
+}
+/* line 49, ../../../app/stylesheets/shapado/others/content-nav.sass */
+.filters ul li a {
+  float: left;
+  display: block;
+  padding: 0 12px 0 12px;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+/* line 58, ../../../app/stylesheets/shapado/others/content-nav.sass */
+.admin-nav {
+  overflow: hidden;
+  margin: 0 0 30px 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 62, ../../../app/stylesheets/shapado/others/content-nav.sass */
+.admin-nav li {
+  display: inline;
+  margin: 0 0 -1px 0;
+}
+/* line 66, ../../../app/stylesheets/shapado/others/content-nav.sass */
+.admin-nav li a {
+  padding: 10px 15px;
+  display: block;
+  float: left;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/* line 3, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.toolbar {
+  display: block;
+}
+/* line 5, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.toolbar ul {
+  zoom: 1;
+  width: 100%;
+}
+/* line 8, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.toolbar ul:before, .toolbar ul:after {
+  display: table;
+  content: "";
+}
+/* line 11, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.toolbar ul:after {
+  clear: both;
+}
+/* line 13, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.toolbar ul li {
+  display: inline;
+  line-height: 24px;
+}
+/* line 16, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.toolbar ul li a {
+  float: left;
+  padding: 0 5px;
+  display: block;
+  line-height: 24px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 30, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.index .toolbar .solution a:hover {
+  background-color: #e9f4c7;
+  color: black;
+}
+/* line 33, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.index .toolbar .answers a {
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+
+/* line 41, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar li a {
+  padding: 2px 8px 1px 25px;
+  background: url("/images/question-toolbar-icons-small.png") 5px 7px no-repeat;
+}
+/* line 44, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar li a:hover {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+/* line 47, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .answer a {
+  background-position: 5px 7px;
+}
+/* line 49, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .answer a:hover, .main-question .toolbar .answer a .answer:hover a {
+  background-position: 5px -23px;
+}
+/* line 53, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .follow .follow-q {
+  background-position: 5px -261px;
+}
+/* line 55, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .follow .follow-q:hover, .main-question .toolbar .follow:hover .follow-q {
+  background-position: 5px -241px;
+}
+/* line 57, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .follow .unfollow-q {
+  background-position: 5px -218px;
+}
+/* line 59, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .follow .unfollow-q:hover, .main-question .toolbar .follow:hover .unfollow-q {
+  background-position: 5px -194px;
+}
+/* line 62, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .share_on a {
+  background-position: 5px -121px;
+}
+/* line 64, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .share_on a:hover, .main-question .toolbar .share_on a.active, .main-question .toolbar .share_on a .share_on:hover .share_on a {
+  background-position: 5px -97px;
+}
+/* line 67, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .more a {
+  background-position: 5px -380px;
+}
+/* line 71, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .activity a {
+  background-position: 5px -73px;
+}
+/* line 73, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .activity a:hover, .main-question .toolbar .activity a.active {
+  background-position: 5px -49px;
+}
+/* line 75, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .activity:hover a {
+  background-position: 5px -49px;
+}
+/* line 79, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .followUp a {
+  background-position: 6px -606px;
+}
+/* line 81, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .followUp a:hover, .main-question .toolbar .followUp a:active {
+  background-position: 6px -580px;
+}
+/* line 83, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .followUp:hover a {
+  background-position: 6px -580px;
+}
+/* line 87, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .close a {
+  background-position: 5px -357px !important;
+}
+/* line 89, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .close a:hover, .main-question .toolbar .close a.active, .main-question .toolbar .close a .close:hover a {
+  background-position: 5px -329px !important;
+}
+/* line 91, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .close:hover a {
+  background-position: 5px -329px !important;
+}
+/* line 94, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar #request-close-link {
+  background-position: 5px -657px;
+}
+/* line 96, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar #request-close-link:hover {
+  background-position: 5px -634px;
+}
+/* line 100, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .delete a, .main-question .toolbar .delete-q a {
+  background-position: 5px -546px;
+}
+/* line 102, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .delete a:hover, .main-question .toolbar .delete a.active, .main-question .toolbar .delete-q a:hover, .main-question .toolbar .delete-q a.active {
+  background-position: 5px -518px;
+}
+/* line 104, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .delete:hover a, .main-question .toolbar .delete-q:hover a {
+  background-position: 5px -518px;
+}
+/* line 108, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .edit-q a {
+  background-position: 5px -305px;
+}
+/* line 110, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .edit-q a:hover, .main-question .toolbar .edit-q a.active {
+  background-position: 5px -282px;
+}
+/* line 112, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .edit-q:hover a {
+  background-position: 5px -282px;
+}
+/* line 115, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .ban a {
+  background-position: 5px -170px;
+}
+/* line 117, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .ban a:hover, .main-question .toolbar .ban a.active, .main-question .toolbar .ban a .ban:hover a {
+  background-position: 5px -146px;
+}
+/* line 120, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar #flag_question {
+  background-position: 5px -722px;
+}
+/* line 122, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar #flag_question:hover {
+  background-position: 5px -744px;
+}
+/* line 125, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .add_reward a {
+  background-position: 5px -767px !important;
+}
+/* line 127, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.main-question .toolbar .add_reward a:hover, .main-question .toolbar .add_reward a .add_reward:hover a {
+  background-position: 5px -787px !important;
+}
+
+/* line 133, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.answers-list article .toolbar {
+  float: right;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 137, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.answers-list article .toolbar .more ul {
+  width: auto !important;
+}
+/* line 139, ../../../app/stylesheets/shapado/others/toolbars.sass */
+.answers-list article .toolbar .more ul .active {
+  background-color: #cc0000;
+}
+
+/* line 1, ../../../app/stylesheets/shapado/others/loading.sass */
+.loading-box {
+  display: none;
+  position: absolute;
+  opacity: 0.85;
+  z-index: 100;
+  left: 50%;
+  width: 250px;
+  margin-left: -220px;
+  margin-top: -150px;
+  padding: 10px 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 13, ../../../app/stylesheets/shapado/others/loading.sass */
+.loading-box h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+/* line 18, ../../../app/stylesheets/shapado/others/loading.sass */
+.loading-box .loading-box-icon {
+  position: static;
+  display: block;
+  opacity: 0.9;
+  margin: 0 auto 10px auto;
+  width: 35px;
+  height: 35px;
+  background: transparent url(/images/ajax-loader.gif) 50% no-repeat;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  -khtml-border-radius: 50px;
+  border-radius: 50px;
+}
+
+/* line 4, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .top {
+  margin-bottom: 30px;
+}
+/* line 6, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .top p {
+  margin: 0 0 0 40px;
+}
+/* line 8, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .top h1 {
+  margin: 20px 0 0 40px;
+}
+/* line 10, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each {
+  float: left;
+  width: 180px;
+  margin: 0 0 20px 0;
+  z-index: 1;
+}
+/* line 15, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each .header {
+  padding: 15px 10px;
+}
+/* line 17, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each .header h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 5px 0;
+}
+/* line 22, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each .header p {
+  text-align: center;
+}
+/* line 24, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each ul {
+  margin: 20px 10px 10px 25px;
+  height: 160px;
+}
+/* line 27, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each ul li {
+  margin: 0 0 5px 0;
+  list-style: disc !important;
+  font-size: 11px;
+}
+/* line 31, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each .price {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* line 35, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each .button a {
+  font-size: 14px;
+}
+/* line 37, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each .button a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 39, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .each .bottom {
+  text-align: center;
+  padding: 20px;
+}
+/* line 42, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .first {
+  margin: 0 0 0 40px;
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-border-radius: 5px 0 0 5px;
+  o-border-radius: 5px 0 0 5px;
+  khtml-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+/* line 49, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .first .bottom {
+  -moz-border-radius: 0 0 0 5px;
+  -webkit-border-radius: 0 0 0 5px;
+  o-border-radius: 0 0 0 5px;
+  khtml-border-radius: 0 0 0 5px;
+  border-radius: 0 0 0 5px;
+}
+/* line 55, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .last {
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-border-radius: 0 5px 5px 0;
+  o-border-radius: 0 5px 5px 0;
+  khtml-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+/* line 61, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .last .bottom {
+  -moz-border-radius: 0 0 5px 0;
+  -webkit-border-radius: 0 0 5px 0;
+  o-border-radius: 0 0 5px 0;
+  khtml-border-radius: 0 0 5px 0;
+  border-radius: 0 0 5px 0;
+}
+/* line 67, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans p.free-offer {
+  clear: both;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+/* line 72, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans p.free-offer a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 74, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .selected {
+  margin: -5px 5px 30px 5px;
+  z-index: 3;
+}
+/* line 78, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .selected .header h2 {
+  font-size: 34px;
+  margin-bottom: 0px;
+}
+/* line 81, ../../../app/stylesheets/shapado/others/plans.sass */
+.plans .selected .price {
+  font-size: 30px;
+}
+
+/* line 2, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller #main-content-wrap p a {
+  padding: 5px;
+}
+/* line 6, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller .details-theme li {
+  overflow: hidden;
+  margin: 0 0 10px 0;
+  padding: 10px 0 0 0;
+}
+/* line 10, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller .details-theme li div {
+  float: left;
+  width: 100px;
+  height: 30px;
+  margin: -10px 10px 0 0 !important;
+}
+/* line 17, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller .themes .theme {
+  display: block;
+  padding: 0 !important;
+}
+/* line 20, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller .themes .theme p, .themes-controller .themes .theme h2 {
+  margin: 0;
+  padding: 0;
+}
+/* line 23, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller .themes .theme .toolbar {
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 27, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller .themes .theme .toolbar ul {
+  text-align: right;
+  float: right;
+}
+/* line 31, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form textarea {
+  height: 100px;
+}
+/* line 33, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form .theme_colors {
+  padding: 20px 0 0 50px;
+}
+/* line 35, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form .theme_colors .field {
+  overflow: hidden;
+  float: left;
+  width: 225px;
+  height: 80px;
+  margin: 0 0 30px 0;
+}
+/* line 41, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form .theme_colors .field small {
+  padding: 5px 0 0 0;
+  display: block;
+  width: 200px;
+}
+/* line 45, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form .theme_colors .jPicker {
+  float: left;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 48, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form .theme_colors .jPicker * {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 50, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form .theme_colors .jPicker .Icon {
+  width: 100px;
+  height: 30px;
+}
+/* line 53, ../../../app/stylesheets/shapado/others/themes.sass */
+.themes-controller form .theme_colors .jPicker .Image {
+  background: url("/images/color-picker.png") no-repeat 50% !important;
+}

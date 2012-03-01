@@ -1,0 +1,16 @@
+/* line 3, ../../../../../app/stylesheets/shapado/others/feedback.sass */
+#feedback-btn {
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  left: -56px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  display: block;
+}
+/* line 12, ../../../../../app/stylesheets/shapado/others/feedback.sass */
+#feedback-btn p a {
+  padding: 7px 20px;
+  font-size: 18px;
+}

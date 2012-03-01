@@ -1,0 +1,180 @@
+/* line 9, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, a, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, textarea, select, input, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, figure,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* line 25, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+article, aside, figure, footer, header, hgroup, img, label, menu, nav, section {
+  display: block;
+}
+
+/* line 29, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+b {
+  font-weight: bold;
+}
+
+/* line 32, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+body {
+  text-rendering: optimizeLegibility;
+  position: relative;
+}
+
+/* line 36, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+a {
+  outline: 0;
+  text-decoration: none;
+}
+/* line 39, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+a:hover, a:focus {
+  border-bottom: 0;
+}
+/* line 41, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+a img {
+  border: 0;
+}
+
+/* line 44, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+.clear {
+  float: none;
+  clear: both;
+  display: block;
+  font-size: 0px;
+}
+
+/* line 51, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* line 57, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+caption, legend, td, th {
+  text-align: left;
+}
+
+/* line 60, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+td, th, input, select {
+  vertical-align: middle;
+}
+
+/* line 63, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+fieldset, input[type="checkbox"], input[type="radio"] {
+  border: 0;
+}
+
+/* line 66, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+button, input[type="checkbox"], input[type="radio"], input[type="submit"], select {
+  cursor: pointer;
+}
+
+/* line 69, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+input[type="checkbox"] + label, input[type="radio"] + label {
+  display: inline-block;
+  vertical-align: -1px;
+  .vertical-align: baseline;
+}
+
+/* line 74, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+button {
+  .vertical-align: middle;
+}
+/* line 76, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* line 80, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+input[type="submit"], input[type="button"] {
+  .padding: 2px 0 0;
+}
+
+/* line 83, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+legend {
+  .margin-left: -6px;
+}
+
+/* line 86, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+textarea {
+  overflow: auto;
+}
+
+/* line 90, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 94, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+ul, ol {
+  list-style: none;
+}
+
+/* line 101, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 106, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  * {
+    -webkit-box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 109, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  html {
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: text;
+  }
+
+  /* line 115, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  body {
+    -webkit-text-stroke: 0 black;
+  }
+
+  /* line 117, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+@media print {
+  /* line 123, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  body {
+    color: black !important;
+    font-size: 12pt !important;
+  }
+
+  /* line 127, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  a:after, abbr[title]:after {
+    font-size: 75%;
+  }
+
+  /* line 129, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  a:after {
+    content: " (" attr(href) ") ";
+  }
+
+  /* line 131, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  abbr[title] {
+    border: 0;
+  }
+  /* line 133, ../../../../../app/stylesheets/shapado/basics/reset.sass */
+  abbr[title]:after {
+    content: " (" attr(title) ") ";
+  }
+}

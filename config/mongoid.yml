@@ -1,0 +1,11 @@
+development:
+  database: knowledgebase-development
+  host: localhost
+  
+production:
+  host: ds031347.mongolab.com
+  port: 31347
+  username: railsfactory
+  password: railsfactory
+  database: knowledge_base
+  

@@ -1,0 +1,231 @@
+/* line 2, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices {
+  padding: 30px 0 !important;
+  width: 800px;
+  margin: 0 auto 10px auto !important;
+}
+/* line 6, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form {
+  margin: 0 auto;
+  width: 600px !important;
+}
+/* line 9, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info {
+  overflow: hidden;
+  padding: 0 0 20px 0;
+}
+/* line 12, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info .brand {
+  float: left;
+}
+/* line 14, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info .references {
+  float: right;
+  padding: 10px;
+}
+/* line 17, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info p {
+  margin: 0 0 5px 0 !important;
+  padding: 0 !important;
+  font-size: 14px;
+  text-align: left;
+}
+/* line 22, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices form .invoice_info p strong {
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 27, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks {
+  clear: both;
+  display: block;
+  padding: 25px;
+  margin: 0 0 20px 0;
+}
+/* line 32, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p {
+  line-height: 16px;
+  margin: 0;
+  text-align: center;
+}
+/* line 36, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p a {
+  font-size: 10px;
+  font-style: italic;
+  margin: 10px 0 0 0;
+}
+/* line 40, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 42, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p.action {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+/* line 47, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .thanks p.action em {
+  margin: 0 5px;
+  font-size: 16px;
+}
+/* line 51, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .contact-details {
+  overflow: hidden;
+  margin: 0 0 15px 0;
+}
+/* line 54, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .contact-details .name {
+  float: left;
+  width: 286px;
+  margin: 0 20px 0 0;
+}
+/* line 58, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .contact-details .lastname {
+  float: left;
+  width: 286px;
+}
+/* line 62, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards {
+  overflow: hidden;
+  padding: 0 0 15px 0;
+}
+/* line 65, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards label {
+  margin-bottom: 15px;
+}
+/* line 67, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards input {
+  width: 30px;
+  margin: 10px 0 0 0;
+}
+/* line 70, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards .visa {
+  background: url("/images/visa.gif") 30px 0 no-repeat;
+  height: 30px;
+  width: 90px;
+  float: left;
+}
+/* line 75, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards .master {
+  background: url("/images/mastercard.gif") 30px 0 no-repeat;
+  height: 30px;
+  width: 90px;
+  float: left;
+}
+/* line 80, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .credit-cards .amex {
+  background: url("/images/amex.gif") 30px 0 no-repeat;
+  height: 30px;
+  width: 90px;
+  float: left;
+}
+/* line 86, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field {
+  width: 286px;
+  float: left;
+}
+/* line 89, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field:first-child {
+  margin: 0 20px 0 0;
+}
+/* line 92, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field .checkbox input, .invoices .half .field .checkbox label {
+  float: right;
+}
+/* line 94, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field .checkbox input {
+  width: 25px;
+}
+/* line 96, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half .field .checkbox label {
+  width: 255px;
+}
+/* line 99, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .half select {
+  width: auto;
+}
+/* line 101, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices .cc-info {
+  margin: 0 0 20px 0;
+  height: 145px;
+}
+/* line 105, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices table {
+  margin: 30px 0;
+}
+/* line 107, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.invoices table td {
+  padding: 10px;
+  text-align: right;
+}
+
+/* line 114, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices {
+  min-height: 600px;
+  width: 100% !important;
+  padding: 30px !important;
+}
+/* line 118, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices table {
+  font-size: 12px;
+  margin: 0;
+}
+/* line 121, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices table td {
+  padding: 10px;
+}
+/* line 124, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.manage-layout .invoices table thead td, .manage-layout .invoices table thead tr td td {
+  font-weight: bold;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* line 131, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice {
+  padding: 30px !important;
+}
+/* line 133, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .brand {
+  float: left;
+  margin: 0 0 80px 0;
+}
+/* line 136, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .references {
+  float: right;
+  margin: 0 30px 0 0;
+}
+/* line 139, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .references p {
+  margin: 0 0 5px 0 !important;
+  font-size: 14px;
+  text-align: left;
+}
+/* line 143, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice .references p strong {
+  font-weight: bold;
+}
+/* line 145, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice h2 {
+  display: block;
+  float: none;
+  clear: both;
+  font-size: 22px;
+  margin: 40px 0 25px 0;
+  padding: 0 0 5px 0;
+}
+/* line 152, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice p {
+  margin: 0 0 15px 150px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+/* line 157, ../../../../../app/stylesheets/shapado/modules/invoices.sass */
+.each-invoice p strong {
+  font-weight: bold;
+  font-size: 16px;
+}

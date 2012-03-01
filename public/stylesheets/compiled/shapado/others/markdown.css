@@ -1,0 +1,97 @@
+/* line 3, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown {
+  padding: 0 15px;
+}
+/* line 5, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown img {
+  max-width: 100%;
+}
+/* line 7, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown textarea {
+  font-size: 13px;
+  padding: 10px;
+  width: 96.5%;
+  margin-bottom: 10px;
+  height: 200px;
+}
+/* line 14, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown p {
+  margin: 0 0 10px 0;
+}
+/* line 16, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown pre {
+  padding: 10px;
+  line-height: 16px;
+}
+
+/* line 20, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown {
+  width: 93% !important;
+  font-size: 14px;
+}
+/* line 23, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown p {
+  line-height: 18px;
+}
+/* line 25, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown strong {
+  font-weight: bold;
+}
+/* line 27, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown em {
+  font-style: italic;
+}
+/* line 29, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ul {
+  list-style: disc outside;
+  padding: 4px;
+}
+/* line 33, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ol {
+  list-style: decimal outside;
+  padding: 4px;
+  margin: 10px 0 20px 0;
+}
+/* line 37, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ol li {
+  margin: 0 0 7px 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+/* line 41, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown ol li a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 44, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown li {
+  margin-left: 1.3em;
+  padding-left: 0.5em;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* line 50, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown code {
+  margin-bottom: 10px;
+  overflow: auto;
+  padding: 5px;
+  width: 100% !important;
+  display: inline-block;
+}
+/* line 58, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown pre code {
+  display: block;
+}
+/* line 61, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown blockquote {
+  width: 80%;
+  padding: 5px;
+  margin: 0.5em;
+  display: block;
+  word-wrap: break-word;
+  quotes: none;
+  vertical-align: baseline;
+}
+/* line 69, ../../../../../app/stylesheets/shapado/others/markdown.sass */
+.markdown img {
+  max-width: 580px;
+}

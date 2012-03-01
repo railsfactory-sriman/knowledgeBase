@@ -1,0 +1,103 @@
+/* History question */
+/* ------------------------------------------------------------ */
+/* line 4, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history {
+  width: auto !important;
+  margin: 0;
+  padding: 0;
+}
+/* line 9, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li {
+  padding: 20px !important;
+  overflow: hidden;
+}
+/* line 12, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top {
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+/* line 16, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top p {
+  font-size: 13px;
+  font-weight: bold;
+  float: left;
+  margin: 0 10px 0 0 !important;
+  float: left;
+}
+/* line 22, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top .diff {
+  float: left;
+}
+/* line 24, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .top small {
+  float: right;
+  margin: -13px 0 0 0;
+}
+/* line 27, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li p.description, form.history ul li .markdown {
+  margin: 10px 0 !important;
+  padding: 0 !important;
+  border: 0px !important;
+}
+/* line 31, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li p.author {
+  margin: 0 !important;
+  float: left;
+}
+/* line 34, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .version-nav {
+  float: right;
+}
+/* line 36, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .tag-list {
+  float: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 10px 0 !important;
+  overflow: hidden;
+}
+/* line 42, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .tag-list li, form.history ul li .tag-list li strong {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0px !important;
+  height: auto !important;
+}
+/* line 47, ../../../../../app/stylesheets/shapado/modules/history.sass */
+form.history ul li .tag-list li strong {
+  font-weight: bold;
+}
+
+/* line 50, ../../../../../app/stylesheets/shapado/modules/history.sass */
+.buttons-history {
+  text-align: right;
+  clear: both;
+  padding: 20px;
+}
+/* line 54, ../../../../../app/stylesheets/shapado/modules/history.sass */
+.buttons-history input {
+  border: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  width: auto;
+}
+
+/* line 60, ../../../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view {
+  padding: 20px;
+}
+/* line 62, ../../../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view .navform {
+  padding: 7px;
+  text-align: right;
+}
+/* line 65, ../../../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view h2 {
+  font-weight: bold;
+}
+/* line 67, ../../../../../app/stylesheets/shapado/modules/history.sass */
+.diff-view p {
+  font-size: 14px;
+  padding: 10px;
+}

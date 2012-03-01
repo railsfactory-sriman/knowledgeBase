@@ -1,0 +1,19 @@
+/* line 3, ../../../../../app/stylesheets/shapado/others/login.sass */
+#login_dialog {
+  display: none;
+  background: white;
+}
+
+/* line 8, ../../../../../app/stylesheets/shapado/others/login.sass */
+.ui-dialog .auth-list {
+  border: 0px !important;
+}
+/* line 10, ../../../../../app/stylesheets/shapado/others/login.sass */
+.ui-dialog .auth-list ul {
+  margin: 0 10px 0 0 !important;
+}
+/* line 12, ../../../../../app/stylesheets/shapado/others/login.sass */
+.ui-dialog .auth-list ul li {
+  display: block !important;
+  float: none !important;
+}

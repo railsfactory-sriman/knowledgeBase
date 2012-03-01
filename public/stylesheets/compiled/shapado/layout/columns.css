@@ -1,0 +1,101 @@
+/*
+Syntax error: Undefined mixin 'normal-radius'.
+        on line 31 of /home/johnson/Documents/projects/railsknowledgebase/app/stylesheets/shapado/layout/columns.sass, in `normal-radius'
+        from line 31 of /home/johnson/Documents/projects/railsknowledgebase/app/stylesheets/shapado/layout/columns.sass
+
+26:   margin: 0
+27: 
+28: #main-content-wrap
+29:   margin-bottom: 3px
+30:   zoom: 1
+31:   +normal-radius
+32:   article.Question.accepted
+33:     border-left: 5px solid #A2C538
+34:   article
+35:     padding: 20px 15px 15px 20px
+36:     width: 585px
+
+Backtrace:
+/home/johnson/Documents/projects/railsknowledgebase/app/stylesheets/shapado/layout/columns.sass:31:in `normal-radius'
+/home/johnson/Documents/projects/railsknowledgebase/app/stylesheets/shapado/layout/columns.sass:31
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:170:in `visit_mixin'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:236:in `visit_rule'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/tree/root_node.rb:20:in `render'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/engine.rb:300:in `_render'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/engine.rb:248:in `block in render'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/util.rb:297:in `silence_sass_warnings'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/engine.rb:248:in `render'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `each'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/plugin.rb:81:in `update_stylesheets'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/plugin.rb:54:in `check_for_updates'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.12/lib/sass/plugin/rack.rb:51:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-recaptcha-0.2.2/lib/rack/recaptcha.rb:34:in `_call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-recaptcha-0.2.2/lib/rack/recaptcha.rb:24:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/bundler/gems/mongoid_ext-e1338a71841c/lib/mongoid_ext/file_server.rb:17:in `call'
+/home/johnson/Documents/projects/railsknowledgebase/app/middlewares/dynamic_domain.rb:17:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/bundler/gems/PDFKit-f468adae4bc4/lib/pdfkit/middleware.rb:16:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/bundler/gems/bug_hunter-3a7d633bdba1/lib/bug_hunter/middleware.rb:10:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/warden-1.0.6/lib/warden/manager.rb:35:in `block in call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/warden-1.0.6/lib/warden/manager.rb:34:in `catch'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/warden-1.0.6/lib/warden/manager.rb:34:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/content_length.rb:14:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.6/lib/rack/handler/mongrel.rb:77:in `process'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:165:in `block in process_client'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:164:in `each'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:164:in `process_client'
+/home/johnson/.rvm/gems/ruby-1.9.2-p290/gems/mongrel-1.2.0.pre2/lib/mongrel.rb:291:in `block (2 levels) in run'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'normal-radius'.\A         on line 31 of /home/johnson/Documents/projects/railsknowledgebase/app/stylesheets/shapado/layout/columns.sass, in `normal-radius'\A         from line 31 of /home/johnson/Documents/projects/railsknowledgebase/app/stylesheets/shapado/layout/columns.sass\A \A 26:   margin: 0\A 27: \A 28: #main-content-wrap\A 29:   margin-bottom: 3px\A 30:   zoom: 1\A 31:   +normal-radius\A 32:   article.Question.accepted\A 33:     border-left: 5px solid #A2C538\A 34:   article\A 35:     padding: 20px 15px 15px 20px\A 36:     width: 585px"; }

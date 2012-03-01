@@ -1,0 +1,62 @@
+/* line 1, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container {
+  margin: 0;
+}
+/* line 3, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container h1 {
+  margin: 30px 0 10px 30px !important;
+}
+/* line 5, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container p.description {
+  margin: 0 30px 30px 30px;
+}
+/* line 7, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container form {
+  margin: 0 30px 20px 30px;
+  overflow: hidden;
+}
+/* line 10, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container form .field {
+  margin: 0;
+}
+/* line 12, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container form .field input {
+  width: 98% !important;
+}
+/* line 15, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li {
+  padding: 20px 30px;
+}
+/* line 17, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .logo {
+  float: left;
+  width: 100px;
+  overflow: hidden;
+  margin: 0 10px 0 0;
+  padding: 5px;
+}
+/* line 23, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .summary {
+  float: left;
+  width: 360px;
+  margin: 0 0 10px 0;
+}
+/* line 27, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .summary h3 {
+  margin: 0;
+}
+/* line 29, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .summary .markdown {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 12px;
+}
+/* line 33, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .actions {
+  float: left;
+  padding: 5px;
+}
+/* line 36, ../../../../../app/stylesheets/shapado/modules/groups.sass */
+.groups_container ul li .actions a {
+  margin: 0 5px;
+}

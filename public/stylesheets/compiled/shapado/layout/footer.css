@@ -1,0 +1,51 @@
+/* line 3, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer {
+  clear: both;
+  float: none;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+/* line 9, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul {
+  width: 555px;
+  margin: 0 auto;
+}
+/* line 13, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li:first-child a {
+  margin: 0 20px 0 0;
+}
+/* line 15, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li:last-child {
+  border: none;
+}
+/* line 17, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li:last-child a {
+  margin-right: 0;
+}
+/* line 19, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li {
+  float: left;
+  display: inline;
+  margin: 0 0 10px 0;
+}
+/* line 24, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li a {
+  margin: 0 10px;
+  font-size: 12px;
+}
+/* line 27, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer ul li a:hover {
+  border-bottom: 1px dotted;
+}
+/* line 29, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer p {
+  clear: both;
+  float: none;
+  margin: 0 0 3px 0;
+  font-size: 12px;
+}
+/* line 34, ../../../../../app/stylesheets/shapado/layout/footer.sass */
+footer p a:hover {
+  border-bottom: 1px dotted;
+}
