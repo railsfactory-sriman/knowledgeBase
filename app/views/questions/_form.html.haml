@@ -1,0 +1,32 @@
+= f.error_messages
+= error_messages_for(:user)
+
+
+-if @question.position
+  = hidden_field_tag "question[position][lat]", @question.position["lat"], :class => "lat_input"
+  = hidden_field_tag "question[position][long]", @question.position["long"], :class => "long_input"
+.field
+  = f.label :title, "#{t(:title, :scope => "activerecord.attributes.question")}*"
+  = f.text_field :title
+  %small
+    = raw(current_group.question_prompt)
+
+.field
+  = f.label :tags, "#{t(:tags, :scope => "activerecord.attributes.question")}", :class => "label"
+  = f.select :tags, categories.map {|c| c.name}, {:prompt=>"--select a category--"}
+  /current_group.default_tags && @question.tags, {},{:multiple => true, :selected => @question.tags}
+  %small
+    = t(".tags_tip")
+
+.field.related_questions
+  %label
+    = t(".related_questions", :default => :"questions.show.related_questions" )
+  %ul#related_questions
+  %small= t(".related_questions", :default => :"questions.form.related_questions_desc" )
+
+.field
+  = render "tiny", :f=>f
+  .clear
+
+.field
+  =render "attachment_editor", local_assigns

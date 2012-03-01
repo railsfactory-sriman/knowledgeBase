@@ -1,0 +1,4 @@
+var Invitations = {
+  initialize: function() {
+  }
+};

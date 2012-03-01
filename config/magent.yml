@@ -1,0 +1,13 @@
+development:
+  database: knowledgebase-magent-development
+  host: localhost
+  port: 27017
+  websocket_channel: magent.websocket
+
+test:
+  database: knowledgebase-test
+
+production:
+  database: knowledgebase-magent-production
+  websocket_channel: magent.websocket
+

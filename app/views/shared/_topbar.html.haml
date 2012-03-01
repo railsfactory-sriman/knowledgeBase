@@ -1,0 +1,23 @@
+%nav.top-bar
+  %ul.group-list.menubar
+  
+  .searcher
+    %a{:href=>"http://www.railsfactory.com"}
+      %img{:src=>"/images/railsfactory.png", :height=>"40px", :width=>"180px"}
+    = form_tag search_index_path, :method => :get, :id => "search" do
+      .field
+        = text_field_tag :q, params[:q], :placeholder=>'seach by keyword'
+
+  -if current_group.languages.count > 1
+    .languages_filter
+      = render "shared/language_filter"
+
+  -if !logged_in?
+    /=multiauth_menu("Sign In")
+    = multiauth_dropdown("Sign In")
+    /=render 'shared/login_menu', :title => "Sign In"
+  -else
+    %ul.user-list.menubar
+      /= render "notifications/notifications_menu"
+      = render "users/top_user"
+      

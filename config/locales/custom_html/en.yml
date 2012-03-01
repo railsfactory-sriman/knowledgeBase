@@ -1,0 +1,7 @@
+en:
+  custom_html:
+    question_prompt:
+      "what am going to post"
+    question_help:
+      "Provide as much details as possible so that it will let others learn clearly.
+ Try to be clear and simple."

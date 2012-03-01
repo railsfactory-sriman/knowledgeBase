@@ -1,0 +1,68 @@
+en:
+  layouts:
+    application:
+      join_group: "Join %{group}"
+      title: "Grab your knowledge"
+      questions: Questions
+      questions_in: Questions in
+      questions_tagged: tagged with
+      ask_question: Ask question
+      tags: Categories
+      users: Users
+      badges: Badges
+      unanswered: Unanswered
+      pages: Pages
+      logout: Log out
+      logged: Logged in as %{login}
+      search: Search
+      forgot: Forgot?
+      log_in: Login
+      signup: Sign up
+      settings: Settings
+      languages: Languages
+      moderate: Moderate
+      manage_ads: Manage ads
+      home: Home
+      subscribe: Subscribe
+      welcome_from: Welcome! You can
+      now: now!
+      faq: FAQ
+      all: All
+      followed: Followed
+      by_me: By Me
+      preferred: Preferred
+      contributed: Contributed
+      collaborate: Collaborate
+      random_question: Random question
+      follow_us_and_share: Follow us and share
+      openid:
+        explaination: "If you would like to register or just log in, please select your OpenID provider:"
+    manage:
+      close_group: Close group
+      edit_layout: Edit layout
+      group_user_management: User management
+      group_features: Features
+      group_look_and_feel: Look & feel
+      themes: Themes
+      appearance: Appearance
+      dashboard: Dashboard
+      properties: Properties
+      widgets: Widgets
+      actions: Actions
+      stats: Stats
+      members: Members
+      reputation: Reputation
+      content: Content
+      theme: Theme
+      domain: Domain
+      invoices: Invoices
+      pages: Pages
+      constrains: Requirements
+      rewards: Rewards
+      general: General
+      announcements: Announcements
+      social: Social
+      invitations: Invitations
+      access: Access
+    notifications:
+      message: "If you do not want to receive automatic notifications from %{group} anymore, change your preferences in the notifications screen."

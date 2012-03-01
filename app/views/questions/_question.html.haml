@@ -1,0 +1,35 @@
+-title = question.title
+
+-if !local_assigns[:mini]
+  -last_target_id, last_target_date, owner = question.find_last_target
+  - if question.last_target_type != 'Question'
+    - @updated = true
+  - else
+    - @updated = false
+
+  %article{:class => class_for_question(question), :id => question.id}
+
+    .user-data
+      %div{:style=>"display: inline; float: right;"}
+        - if logged_in?
+          =link_to "Edit", edit_question_path(question.id)
+          %img{:style=>"display:inline", :src=>"/images/edit.png", :width=>"15px", :height=>"15px"}
+          =link_to "Delete", question_path(question.id), :method=>:delete
+          %img{:style=>"display:inline", :src=>"/images/cancel.png", :width=>"15px", :height=>"15px"}
+        
+    %h2
+      = pjax_link_to title, "question", question_path(question.id), :title => truncate(strip_tags(question.body), :length => 200)
+    %ul.tag-list
+      %li.title
+        = t('global.tags_label')
+      - question.tags.each do |tag|
+        %li
+          = tag_link(tag)
+
+    .clear
+    -#if owner
+      =render :partial => "users/user_data", :locals => {:user => owner}
+    -else
+      = I18n.t('shared.by_anon')
+      %time{:pubdate => "pubdate", :datetime => last_target_date.iso8601}
+      =t("time.ago", :time => time_ago_in_words(last_target_date))

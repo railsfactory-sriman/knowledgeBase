@@ -1,0 +1,14 @@
+%section.left-panel#column1
+  .brand
+    %h1
+      = link_to(image_tag("/images/logo.png", :class => "group_logo"), domain_url(:custom => current_group.domain))
+
+  -#-if user_signed_in? && current_user.searches.count > 0
+    .widget-links.module
+      %nav
+        %ul
+          -current_user.searches.each do |search|
+            %li
+              = tab_entry "li", search.name, search_path(search), :selected => "active", :link_opts => {:"class" => "pjax", :"data-layout" => "index", :rel => 'nofollow'}
+  
+  = render "shared/widgets", :context => 'mainlist', :position => 'navbar'

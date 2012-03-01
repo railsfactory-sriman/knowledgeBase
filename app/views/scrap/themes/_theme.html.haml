@@ -1,0 +1,19 @@
+-current = theme == current_group.current_theme
+%article.theme{:class => current ? "current" : ""}
+  %h2
+    = link_to "#{theme.name} #{current ? "[Current]" : ""}", theme_path(theme)
+  %p.content.markdown
+    = theme.description
+  .toolbar
+    %ul
+      -if theme.ready
+        %li
+          = link_to t("themes.show.try"), domain_url(custom: current_group.domain, test_theme: theme.id, controller: "questions", action: "index"), :target => "_blank"
+        %li
+          = link_to t("themes.show.apply"), apply_theme_path(theme), :method => :put
+      - if theme.group == current_group
+        %li
+          = link_to t("scaffold.edit"), edit_theme_path(theme)
+        %li
+          = link_to t('scaffold.destroy'),  theme_path(theme), :method => :delete, :confirm => t("scaffold.sure", :model => Theme.model_name.human)
+  %br

@@ -1,0 +1,32 @@
+en:
+  votes:
+    comments:
+      title:
+        one_vote_user: "Only you have upvoted this comment."
+        one_vote_two_users: "You and 1 other user have upvoted this comment."
+        more_votes_user: "You and %{votes} other users have upvoted this comment."
+        no_user_no_vote: "Click to upvote this comment."
+        no_user_one_vote: "Only one user has upvoted this comment, click to upvote it too."
+        no_user_more_votes: "More than %{votes} people have upvoted this comment, click to upvote it too."
+    create:
+      flash_notice: "Thanks for voting!"
+      flash_error:  "You cannot vote this"
+      unauthenticated: "Anonymous users cannot vote"
+      average:
+        one: "%{count} vote"
+        other: "%{count} votes"
+    destroy:
+      flash_notice: "Your vote has been revoked successfully."
+    control:
+      to_vote_up: "Click to vote up"
+      to_vote_down: "Click to vote down"
+      have_voted_up: "Click to undo your up vote"
+      have_voted_down: "Click to undo your down vote"
+    model:
+      messages:
+        closed_question: "You cannot vote on any posts belonging to a closed question"
+        vote_down_comment: "Comments cannot be voted down"
+  activerecord:
+    models:
+      votes: Votes
+      vote: Vote

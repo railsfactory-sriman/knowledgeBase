@@ -1,0 +1,6 @@
+en:
+  tags:
+    show:
+      title: 'Rails Help tagged: %{tags}'
+    index:
+      filter: Filter

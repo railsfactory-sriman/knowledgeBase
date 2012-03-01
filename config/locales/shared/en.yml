@@ -1,0 +1,62 @@
+en:
+en:
+en:
+en:
+en:
+  shared:
+    name: Name
+    description: Description
+    by_anon: "By anonymous"
+    preferred_lang: "My preferred languages"
+    any_lang: Any language
+    quick_question:
+      random_question: "Answer a random question"
+    login_drop_down:
+      with_google: with Google
+      with_facebook: with Facebook
+      with_twitter: with Twitter
+      with_linked_in: with LinkedIn
+      with_identica: with Identi.ca
+      with_openid: OpenID
+      with_user_pass: user/password
+    social_connect:
+      find_friends_facebook: Find friends on Facebook
+      find_friends_twitter: Find friends on Twitter
+      find_friends_linked_in: Find friends on LinkedIn
+      find_friends_identica: Find friends on Identi.ca
+    topbar:
+      logged_as: "Logged in as %{login}"
+      admin: Admin
+      user_page: My page
+    current_tags:
+      title: Selected tags
+    manage_navigation:
+      title_options: Group options
+      title_content: Group content
+      title_features: Group features
+    empty:
+      default:
+        title: Sorry! There's not much to see here.
+        description:
+          text: Be the first to %{action_link}!
+      questions:
+        description:
+          action_link: write a post
+      themes:
+        title: You haven't created any themes for now.
+        description:
+          text: create one %{action_link}
+          action_link: now
+      activities:
+        title: There are no activities so far.
+        description:
+          text:
+            This place will get filled up automatically once you start to post.
+      answers:
+        title: No one has answered this question yet.
+        description:
+          text: Be the first!
+    layout:
+      footer:
+        cc_footer: 'All Shapado.com content and data are available under the %{cc_link} license'
+        powered_by: Powered by %{source_link} %{version} under the %{agpl_link}
