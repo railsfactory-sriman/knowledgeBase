@@ -27,6 +27,7 @@ gem "fancy-buttons", "1.1.1"
 gem 'kaminari'
 #gem 'mustache'
 #gem 'poirot', :git => "git://github.com/dcu/poirot.git"
+gem 'heroku'
 
 #texteditor
 #gem 'tinymce-rails'
